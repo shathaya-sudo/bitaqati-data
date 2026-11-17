@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T18:55:45Z",
+  "generatedAt": "2026-11-17T18:59:38Z",
   "programs": [
     {
       "id": "alsafwa",
@@ -563,47 +563,6 @@
       ]
     },
     {
-      "id": "abesq-doha-hotel-and-residences",
-      "nameEn": "Abesq Doha Hotel & Residences",
-      "nameAr": "فندق وريزيدنسيز أبسك الدوحة",
-      "category": "restaurant",
-      "brandAliases": [
-        "Abesq Doha Hotel & Residences, an IHG Hotel",
-        "فندق و ريزيدنسيز أبسك الدوحة"
-      ],
-      "locations": [
-        {
-          "id": "abesq-doha-hotel-and-residences-doha",
-          "nameAr": "فندق وريزيدنسيز أبسك الدوحة – الدوحة (تقريبي)",
-          "nameEn": "Abesq Doha Hotel & Residences – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
-      "id": "abesq-hotel-doha",
-      "nameEn": "Abesq Hotel Doha",
-      "nameAr": "فندق أبسك الدوحة",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "abesq-hotel-doha-doha",
-          "nameAr": "فندق أبسك الدوحة – الدوحة (تقريبي)",
-          "nameEn": "Abesq Hotel Doha – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "adagio-doha-aparthotel",
       "nameEn": "Adagio Doha Aparthotel",
       "nameAr": "أداجيو الدوحة للشقق الفندقية",
@@ -1070,25 +1029,6 @@
           "areaEn": "Doha",
           "approx": true
         },
-        {
-          "id": "al-aziziyah-boutique-hotel-by-the-torch-al-aziziya",
-          "nameAr": "فندق العزيزية بوتيك – العزيزية (تقريبي)",
-          "nameEn": "Al Aziziyah Boutique Hotel By The Torch – Al Aziziya (approx.)",
-          "lat": 25.25,
-          "lng": 51.45,
-          "areaAr": "العزيزية",
-          "areaEn": "Al Aziziya",
-          "approx": true
-        }
-      ]
-    },
-    {
-      "id": "al-aziziyah-boutique-hotel-by-the-torch",
-      "nameEn": "Al Aziziyah Boutique Hotel By The Torch",
-      "nameAr": "فندق العزيزية بوتيك",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
         {
           "id": "al-aziziyah-boutique-hotel-by-the-torch-al-aziziya",
           "nameAr": "فندق العزيزية بوتيك – العزيزية (تقريبي)",
@@ -1775,9 +1715,9 @@
       ],
       "locations": [
         {
-          "id": "al-jazeera-perfumes-doha",
-          "nameAr": "الجزيرة للعطور – الدوحة (تقريبي)",
-          "nameEn": "Al Jazeera Perfumes – Doha (approx.)",
+          "id": "ajp-doha",
+          "nameAr": "الجزيرة للعطور – الدوحة",
+          "nameEn": "Al Jazeera Perfumes – Doha",
           "lat": 25.2854,
           "lng": 51.531,
           "areaAr": "الدوحة",
@@ -4067,24 +4007,6 @@
           "areaAr": "مشيرب",
           "areaEn": "Msheireb"
         },
-        {
-          "id": "alwadi-hotel-doha-mgallery-collection-souq-waqif",
-          "nameAr": "فندق الوادي مشيرب الدوحة ام قاليري كولكشن – سوق واقف",
-          "nameEn": "Alwadi Hotel Doha - MGallery Collection – Souq Waqif",
-          "lat": 25.28502,
-          "lng": 51.53002,
-          "areaAr": "سوق واقف",
-          "areaEn": "Souq Waqif"
-        }
-      ]
-    },
-    {
-      "id": "alwadi-hotel-doha-mgallery-collection",
-      "nameEn": "Alwadi Hotel Doha - MGallery Collection",
-      "nameAr": "فندق الوادي مشيرب الدوحة ام قاليري كولكشن",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
         {
           "id": "alwadi-hotel-doha-mgallery-collection-souq-waqif",
           "nameAr": "فندق الوادي مشيرب الدوحة ام قاليري كولكشن – سوق واقف",
@@ -7539,25 +7461,6 @@
           "lng": 51.53666,
           "areaAr": "لاجونا مول",
           "areaEn": "Lagoona Mall"
-        }
-      ]
-    },
-    {
-      "id": "cecconis",
-      "nameEn": "Cecconis",
-      "nameAr": "مطعم سيكونيس",
-      "category": "restaurant",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "cecconis-doha",
-          "nameAr": "مطعم سيكونيس – الدوحة (تقريبي)",
-          "nameEn": "Cecconis – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
         }
       ]
     },
@@ -11311,25 +11214,6 @@
       ]
     },
     {
-      "id": "ezdan-hotel-westbay",
-      "nameEn": "Ezdan Hotel Westbay",
-      "nameAr": "فندق إزدان الخليج الغربي",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "ezdan-hotel-westbay-west-bay",
-          "nameAr": "فندق إزدان الخليج الغربي – الخليج الغربي (تقريبي)",
-          "nameEn": "Ezdan Hotel Westbay – West Bay (approx.)",
-          "lat": 25.322,
-          "lng": 51.529,
-          "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "ezdan-palace-hotel",
       "nameAr": "فندق ازدان بالاس",
       "nameEn": "Ezdan Palace Hotel",
@@ -11996,25 +11880,6 @@
       ]
     },
     {
-      "id": "flying-carpet-restaurant",
-      "nameEn": "Flying Carpet Restaurant",
-      "nameAr": "مطعم فلاينج كاربت",
-      "category": "restaurant",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "flying-carpet-restaurant-doha",
-          "nameAr": "مطعم فلاينج كاربت – الدوحة (تقريبي)",
-          "nameEn": "Flying Carpet Restaurant – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "flying-tiger-copenhagen",
       "nameAr": "فلاينج تايجر كوبنهاجن",
       "nameEn": "Flying Tiger Copenhagen",
@@ -12068,25 +11933,6 @@
           "lng": 51.3493,
           "areaAr": "الريان",
           "areaEn": "Al Rayyan"
-        }
-      ]
-    },
-    {
-      "id": "fnac",
-      "nameEn": "Fnac",
-      "nameAr": "فناك",
-      "category": "electronics",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "fnac-lusail",
-          "nameAr": "فناك – لوسيل (تقريبي)",
-          "nameEn": "Fnac – Lusail (approx.)",
-          "lat": 25.4059,
-          "lng": 51.495,
-          "areaAr": "لوسيل",
-          "areaEn": "Lusail",
-          "approx": true
         }
       ]
     },
@@ -13410,24 +13256,6 @@
       ]
     },
     {
-      "id": "golden-tulip-doha-hotel",
-      "nameEn": "Golden Tulip Doha Hotel",
-      "nameAr": "فندق جولدن توليب الدوحة",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "golden-tulip-doha-hotel-souq-waqif",
-          "nameAr": "فندق جولدن توليب الدوحة – سوق واقف",
-          "nameEn": "Golden Tulip Doha Hotel – Souq Waqif",
-          "lat": 25.28975,
-          "lng": 51.54367,
-          "areaAr": "سوق واقف",
-          "areaEn": "Souq Waqif"
-        }
-      ]
-    },
-    {
       "id": "grade-one-trading-and-contracting",
       "nameEn": "Grade One Trading and Contracting",
       "nameAr": "جريدون للتجارة و المقاولات العامة",
@@ -13464,25 +13292,6 @@
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
           "areaEn": "West Bay"
-        }
-      ]
-    },
-    {
-      "id": "grand-hyatt-doha-hotel-and-villas",
-      "nameEn": "Grand Hyatt Doha Hotel & Villas",
-      "nameAr": "فندق و فيلات الجراند حياة الدوحة",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "grand-hyatt-doha-hotel-and-villas-west-bay",
-          "nameAr": "فندق و فيلات الجراند حياة الدوحة – الخليج الغربي (تقريبي)",
-          "nameEn": "Grand Hyatt Doha Hotel & Villas – West Bay (approx.)",
-          "lat": 25.322,
-          "lng": 51.529,
-          "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay",
-          "approx": true
         }
       ]
     },
@@ -13818,25 +13627,6 @@
       ]
     },
     {
-      "id": "hair-bar",
-      "nameEn": "Hair Bar",
-      "nameAr": "هير بار صالون",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "hair-bar-doha",
-          "nameAr": "هير بار صالون – الدوحة (تقريبي)",
-          "nameEn": "Hair Bar – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "hair-bar-salon",
       "nameAr": "صالون هير بار",
       "nameEn": "Hair Bar Salon",
@@ -14087,16 +13877,6 @@
           "lng": 51.53,
           "areaAr": "منطقة المنتزه ٢٤، شارع ٨٤٠، مبنى ٣٤، الطابق ٤، مكتب ٤٠٣",
           "areaEn": "Al Muntazah"
-        },
-        {
-          "id": "handygo-services-doha",
-          "nameAr": "هاندي جو – الدوحة (تقريبي)",
-          "nameEn": "HandyGo Services – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
         }
       ]
     },
@@ -14431,16 +14211,6 @@
           "lng": 51.54009,
           "areaAr": "سيتي سنتر",
           "areaEn": "City Center"
-        },
-        {
-          "id": "hilton-doha-1",
-          "nameAr": "هيلتون الدوحة",
-          "nameEn": "Hilton Doha",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الكورنيش",
-          "areaEn": "Doha",
-          "approx": true
         }
       ]
     },
@@ -14475,25 +14245,6 @@
           "lng": 51.55,
           "areaAr": "اللؤلؤة",
           "areaEn": "The Pearl"
-        }
-      ]
-    },
-    {
-      "id": "hilton-global-hotels",
-      "nameEn": "Hilton Global Hotels",
-      "nameAr": "فنادق هيلتون",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "hilton-global-hotels-worldwide-booking-code",
-          "nameAr": "فنادق هيلتون – عالمي (رمز حجز) (تقريبي)",
-          "nameEn": "Hilton Global Hotels – Worldwide (booking code) (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "عالمي (رمز حجز)",
-          "areaEn": "Worldwide (booking code)",
-          "approx": true
         }
       ]
     },
@@ -15797,25 +15548,6 @@
       ]
     },
     {
-      "id": "jasmine-palace-restaurant",
-      "nameEn": "Jasmine Palace Restaurant",
-      "nameAr": "مطعم قصر الياسمين",
-      "category": "restaurant",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "jasmine-palace-restaurant-the-pearl",
-          "nameAr": "مطعم قصر الياسمين – اللؤلؤة (تقريبي)",
-          "nameEn": "Jasmine Palace Restaurant – The Pearl (approx.)",
-          "lat": 25.37,
-          "lng": 51.55,
-          "areaAr": "اللؤلؤة",
-          "areaEn": "The Pearl",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "jaula-spa",
       "nameAr": "جولا سبا",
       "nameEn": "Jaula Spa",
@@ -16476,25 +16208,6 @@
           "lng": 51.519,
           "areaAr": "كتارا",
           "areaEn": "Katara"
-        }
-      ]
-    },
-    {
-      "id": "katara-hills-doha-lxr-hotels-and-resorts",
-      "nameEn": "Katara Hills Doha, LXR Hotels & Resorts",
-      "nameAr": "كتارا هيلز,من فنادق و منتجعات ال اكس ار",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "katara-hills-doha-lxr-hotels-and-resorts-katara",
-          "nameAr": "كتارا هيلز,من فنادق و منتجعات ال اكس ار – كتارا (تقريبي)",
-          "nameEn": "Katara Hills Doha, LXR Hotels & Resorts – Katara (approx.)",
-          "lat": 25.359,
-          "lng": 51.5265,
-          "areaAr": "كتارا",
-          "areaEn": "Katara",
-          "approx": true
         }
       ]
     },
@@ -19340,24 +19053,6 @@
       ]
     },
     {
-      "id": "mandarin-oriental-doha",
-      "nameEn": "Mandarin Oriental, Doha",
-      "nameAr": "فندق ماندرين أورينتال، الدوحة",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "mandarin-oriental-doha-msheireb",
-          "nameAr": "فندق ماندرين أورينتال، الدوحة – مشيرب",
-          "nameEn": "Mandarin Oriental, Doha – Msheireb",
-          "lat": 25.28632,
-          "lng": 51.52578,
-          "areaAr": "مشيرب",
-          "areaEn": "Msheireb"
-        }
-      ]
-    },
-    {
       "id": "mandarin-oriental-doha-hotel",
       "nameAr": "فندق ماندارين أورينتال الدوحة",
       "nameEn": "Mandarin Oriental Doha Hotel",
@@ -20430,16 +20125,6 @@
           "lng": 51.508,
           "areaAr": "لوسيل",
           "areaEn": "Lusail"
-        },
-        {
-          "id": "moka-doha",
-          "nameAr": "موكا كافيه – الدوحة (تقريبي)",
-          "nameEn": "Moka – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
         }
       ]
     },
@@ -22748,24 +22433,6 @@
       ]
     },
     {
-      "id": "park-hyatt-doha",
-      "nameEn": "Park Hyatt Doha",
-      "nameAr": "بارك حياة الدوحة",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "park-hyatt-doha-msheireb",
-          "nameAr": "بارك حياة الدوحة – مشيرب",
-          "nameEn": "Park Hyatt Doha – Msheireb",
-          "lat": 25.28391,
-          "lng": 51.52566,
-          "areaAr": "مشيرب",
-          "areaEn": "Msheireb"
-        }
-      ]
-    },
-    {
       "id": "park-hyatt-doha-hotel",
       "nameAr": "فندق بارك حياة الدوحة",
       "nameEn": "Park Hyatt Doha Hotel",
@@ -22919,25 +22586,6 @@
           "areaAr": "أسباير",
           "areaEn": "Aspire Zone"
         },
-        {
-          "id": "paul-bakery-and-restaurant-doha",
-          "nameAr": "مخبز ومطعم بول – الدوحة (تقريبي)",
-          "nameEn": "Paul Bakery and Restaurant – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
-      "id": "paul-bakery-and-restaurant",
-      "nameEn": "Paul Bakery and Restaurant",
-      "nameAr": "مخبز ومطعم بول",
-      "category": "cafe",
-      "brandAliases": [],
-      "locations": [
         {
           "id": "paul-bakery-and-restaurant-doha",
           "nameAr": "مخبز ومطعم بول – الدوحة (تقريبي)",
@@ -25722,25 +25370,6 @@
       ]
     },
     {
-      "id": "salam-store",
-      "nameEn": "Salam Store",
-      "nameAr": "محلات السلام",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "salam-store-doha",
-          "nameAr": "محلات السلام – الدوحة (تقريبي)",
-          "nameEn": "Salam Store – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "salam-stores",
       "nameAr": "محلات السلام",
       "nameEn": "Salam Stores",
@@ -26331,24 +25960,6 @@
         "Sedra Arjaan by Rotana - The Pearl",
         "سدرة أرجان من روتانا – اللؤلؤة، الدوحة"
       ],
-      "locations": [
-        {
-          "id": "sedra-arjaan-by-rotana-the-pearl-the-pearl",
-          "nameAr": "سدرة أرجان من روتانا – اللؤلؤة، الدوحة – اللؤلؤة",
-          "nameEn": "Sedra Arjaan by Rotana - The Pearl – The Pearl",
-          "lat": 25.36585,
-          "lng": 51.55043,
-          "areaAr": "اللؤلؤة",
-          "areaEn": "The Pearl"
-        }
-      ]
-    },
-    {
-      "id": "sedra-arjaan-by-rotana-the-pearl",
-      "nameEn": "Sedra Arjaan by Rotana - The Pearl",
-      "nameAr": "سدرة أرجان من روتانا – اللؤلؤة، الدوحة",
-      "category": "hotel",
-      "brandAliases": [],
       "locations": [
         {
           "id": "sedra-arjaan-by-rotana-the-pearl-the-pearl",
@@ -30800,16 +30411,6 @@
           "lng": 51.533,
           "areaAr": "سوق واقف",
           "areaEn": "Souq Waqif"
-        },
-        {
-          "id": "usta-doha",
-          "nameAr": "أسطا – الدوحة (تقريبي)",
-          "nameEn": "Usta – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
         }
       ]
     },
@@ -30932,16 +30533,6 @@
           "lng": 51.51748,
           "areaAr": "جزيرة جيوان",
           "areaEn": "Gewan Island"
-        },
-        {
-          "id": "velero-hotel-doha-lusail-lusail",
-          "nameAr": "فندق فيليرو لوسيل – لوسيل (تقريبي)",
-          "nameEn": "Velero Hotel Doha Lusail – Lusail (approx.)",
-          "lat": 25.4059,
-          "lng": 51.495,
-          "areaAr": "لوسيل",
-          "areaEn": "Lusail",
-          "approx": true
         }
       ]
     },
@@ -31514,24 +31105,6 @@
           "areaAr": "الخليج الغربي",
           "areaEn": "West Bay"
         },
-        {
-          "id": "w-doha-hotel-and-residences-city-center",
-          "nameAr": "فندق و شقق دبليو الدوحة – سيتي سنتر",
-          "nameEn": "W Doha Hotel and Residences – City Center",
-          "lat": 25.32888,
-          "lng": 51.52773,
-          "areaAr": "سيتي سنتر",
-          "areaEn": "City Center"
-        }
-      ]
-    },
-    {
-      "id": "w-doha-hotel-and-residences",
-      "nameEn": "W Doha Hotel and Residences",
-      "nameAr": "فندق و شقق دبليو الدوحة",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
         {
           "id": "w-doha-hotel-and-residences-city-center",
           "nameAr": "فندق و شقق دبليو الدوحة – سيتي سنتر",
@@ -55631,7 +55204,7 @@
     {
       "id": "testaahel-abesq-doha-hotel-and-residences",
       "programId": "testaahel",
-      "merchantId": "abesq-doha-hotel-and-residences",
+      "merchantId": "abesq-doha-hotel",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في فندق وريزيدنسيز أبسك الدوحة",
@@ -55648,7 +55221,7 @@
     {
       "id": "testaahel-abesq-hotel-doha",
       "programId": "testaahel",
-      "merchantId": "abesq-hotel-doha",
+      "merchantId": "abesq-doha-hotel",
       "discountType": "percent",
       "discountValue": 25.0,
       "titleAr": "خصم 25% لحاملي بطاقة تستاهل في فندق أبسك الدوحة",
@@ -55869,7 +55442,7 @@
     {
       "id": "testaahel-al-aziziyah-boutique-hotel-by-the-torch",
       "programId": "testaahel",
-      "merchantId": "al-aziziyah-boutique-hotel-by-the-torch",
+      "merchantId": "al-aziziyah-boutique-hotel",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في فندق العزيزية بوتيك",
@@ -57093,7 +56666,7 @@
     {
       "id": "testaahel-alwadi-hotel-doha-mgallery-collection",
       "programId": "testaahel",
-      "merchantId": "alwadi-hotel-doha-mgallery-collection",
+      "merchantId": "alwadi-hotel-doha",
       "discountType": "percent",
       "discountValue": 15.0,
       "titleAr": "خصم 15% لحاملي بطاقة تستاهل في فندق الوادي مشيرب الدوحة ام قاليري كولكشن",
@@ -58725,7 +58298,7 @@
     {
       "id": "testaahel-cecconis",
       "programId": "testaahel",
-      "merchantId": "cecconis",
+      "merchantId": "cecconis-doha",
       "discountType": "percent",
       "discountValue": 10.0,
       "titleAr": "خصم 10% لحاملي بطاقة تستاهل في مطعم سيكونيس",
@@ -60578,7 +60151,7 @@
     {
       "id": "testaahel-ezdan-hotel-westbay",
       "programId": "testaahel",
-      "merchantId": "ezdan-hotel-westbay",
+      "merchantId": "ezdan-hotel-west-bay",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في فندق إزدان الخليج الغربي",
@@ -60986,7 +60559,7 @@
     {
       "id": "testaahel-flying-carpet-restaurant",
       "programId": "testaahel",
-      "merchantId": "flying-carpet-restaurant",
+      "merchantId": "flying-carpet",
       "discountType": "percent",
       "discountValue": 15.0,
       "titleAr": "خصم 15% لحاملي بطاقة تستاهل في مطعم فلاينج كاربت",
@@ -61003,7 +60576,7 @@
     {
       "id": "testaahel-fnac",
       "programId": "testaahel",
-      "merchantId": "fnac",
+      "merchantId": "fnac-qatar",
       "discountType": "percent",
       "discountValue": 10.0,
       "titleAr": "خصم 10% لحاملي بطاقة تستاهل في فناك",
@@ -61632,7 +61205,7 @@
     {
       "id": "testaahel-golden-tulip-doha-hotel",
       "programId": "testaahel",
-      "merchantId": "golden-tulip-doha-hotel",
+      "merchantId": "golden-tulip-doha",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في فندق جولدن توليب الدوحة",
@@ -61666,7 +61239,7 @@
     {
       "id": "testaahel-grand-hyatt-doha-hotel-and-villas",
       "programId": "testaahel",
-      "merchantId": "grand-hyatt-doha-hotel-and-villas",
+      "merchantId": "grand-hyatt-doha-hotel",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في فندق و فيلات الجراند حياة الدوحة",
@@ -61802,7 +61375,7 @@
     {
       "id": "testaahel-hair-bar",
       "programId": "testaahel",
-      "merchantId": "hair-bar",
+      "merchantId": "hair-bar-salon",
       "discountType": "percent",
       "discountValue": 20.0,
       "titleAr": "خصم 20% لحاملي بطاقة تستاهل في هير بار صالون",
@@ -62108,7 +61681,7 @@
     {
       "id": "testaahel-hilton-global-hotels",
       "programId": "testaahel",
-      "merchantId": "hilton-global-hotels",
+      "merchantId": "hilton-doha",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في فنادق هيلتون",
@@ -62618,7 +62191,7 @@
     {
       "id": "testaahel-jasmine-palace-restaurant",
       "programId": "testaahel",
-      "merchantId": "jasmine-palace-restaurant",
+      "merchantId": "yasmine-palace",
       "discountType": "percent",
       "discountValue": 15.0,
       "titleAr": "خصم 15% لحاملي بطاقة تستاهل في مطعم قصر الياسمين",
@@ -62890,7 +62463,7 @@
     {
       "id": "testaahel-katara-hills-doha-lxr-hotels-and-resorts",
       "programId": "testaahel",
-      "merchantId": "katara-hills-doha-lxr-hotels-and-resorts",
+      "merchantId": "katara-hills-doha",
       "discountType": "percent",
       "discountValue": 25.0,
       "titleAr": "خصم 25% لحاملي بطاقة تستاهل في كتارا هيلز,من فنادق و منتجعات ال اكس ار",
@@ -64046,7 +63619,7 @@
     {
       "id": "testaahel-mandarin-oriental-doha",
       "programId": "testaahel",
-      "merchantId": "mandarin-oriental-doha",
+      "merchantId": "mandarin-oriental-doha-hotel",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في فندق ماندرين أورينتال، الدوحة",
@@ -65661,7 +65234,7 @@
     {
       "id": "testaahel-park-hyatt-doha",
       "programId": "testaahel",
-      "merchantId": "park-hyatt-doha",
+      "merchantId": "park-hyatt-doha-hotel",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في بارك حياة الدوحة",
@@ -65746,7 +65319,7 @@
     {
       "id": "testaahel-paul-bakery-and-restaurant",
       "programId": "testaahel",
-      "merchantId": "paul-bakery-and-restaurant",
+      "merchantId": "paul",
       "discountType": "percent",
       "discountValue": 10.0,
       "titleAr": "خصم 10% لحاملي بطاقة تستاهل في مخبز ومطعم بول",
@@ -66817,7 +66390,7 @@
     {
       "id": "testaahel-salam-store",
       "programId": "testaahel",
-      "merchantId": "salam-store",
+      "merchantId": "salam-stores",
       "discountType": "percent",
       "discountValue": 20.0,
       "titleAr": "خصم 20% لحاملي بطاقة تستاهل في محلات السلام",
@@ -67106,7 +66679,7 @@
     {
       "id": "testaahel-sedra-arjaan-by-rotana-the-pearl",
       "programId": "testaahel",
-      "merchantId": "sedra-arjaan-by-rotana-the-pearl",
+      "merchantId": "sedra-arjaan-by-rotana",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في سدرة أرجان من روتانا – اللؤلؤة، الدوحة",
@@ -69707,7 +69280,7 @@
     {
       "id": "testaahel-w-doha-hotel-and-residences",
       "programId": "testaahel",
-      "merchantId": "w-doha-hotel-and-residences",
+      "merchantId": "w-doha-hotel",
       "discountType": "percent",
       "discountValue": 20.0,
       "titleAr": "خصم 20% لحاملي بطاقة تستاهل في فندق و شقق دبليو الدوحة",

@@ -32,9 +32,25 @@ def main():
     before = (len(merchants), len(offers))
     problems, warnings = [], []
 
+    # merchant_map.json (next to the parts): reviewed dedupe decisions that must survive every re-crawl.
+    #   {"map": {"<part merchant id>": "<canonical merchant id>"}, "dropMerchants": ["<not a merchant>"]}
+    merchant_map, drop_merchants = {}, set()
+    map_path = os.path.join(parts_dir, "merchant_map.json")
+    if os.path.exists(map_path):
+        mm = json.load(open(map_path, encoding="utf-8"))
+        merchant_map = mm.get("map", {}); drop_merchants = set(mm.get("dropMerchants", []))
+        print(f"merchant map: {len(merchant_map)} remaps, {len(drop_merchants)} dropped ids")
+
     for path in sorted(glob.glob(os.path.join(parts_dir, "*.json"))):
+        if os.path.basename(path) == "merchant_map.json":
+            continue
         part = json.load(open(path, encoding="utf-8"))
         name = os.path.basename(path)
+        # Apply the reviewed merges before anything else: offers follow their merchant to the canonical id.
+        part["merchants"] = [m for m in part.get("merchants", []) if m.get("id") not in drop_merchants and m.get("id") not in merchant_map]
+        part["offers"] = [o for o in part.get("offers", []) if o.get("merchantId") not in drop_merchants]
+        for o in part["offers"]:
+            o["merchantId"] = merchant_map.get(o.get("merchantId"), o.get("merchantId"))
         for m in part.get("merchants", []):
             missing = [k for k in REQ_MERCHANT if k not in m]
             if missing:
@@ -45,7 +61,14 @@ def main():
                 ex = merchants[m["id"]]
                 # A part's version of a known location id replaces the seed's (parts are fresher, e.g. geocoded branches).
                 fresh = {l["id"]: l for l in m["locations"]}
-                ex["locations"] = [fresh.pop(l["id"], l) for l in ex["locations"]] + list(fresh.values())
+                kept = [fresh.pop(l["id"], l) for l in ex["locations"]]
+                # A re-crawled part carries its old area-level guesses; never add those to a merchant the seed
+                # already knows (its locations may have been geocoded or reviewed since). Exact branches are added.
+                def is_guess(l):
+                    name = (l.get("nameEn", "") + " " + l.get("nameAr", "")).lower()
+                    return l.get("approx") or "approx" in name or "تقريب" in name or (
+                        abs(l["lat"] - 25.2854) < 0.0006 and abs(l["lng"] - 51.531) < 0.0006)
+                ex["locations"] = kept + [l for l in fresh.values() if not is_guess(l)]
                 ex["brandAliases"] = list(dict.fromkeys(ex["brandAliases"] + m.get("brandAliases", [])))
             else:
                 merchants[m["id"]] = m
