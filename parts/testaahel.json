@@ -11902,6 +11902,25 @@
    ]
   },
   {
+   "id": "special-offer-to-testaahel-members",
+   "nameEn": "SPECIAL OFFER TO TESTAAHEL MEMBERS",
+   "nameAr": "عرض خاص لاعضاء تستاهل",
+   "category": "fashion",
+   "brandAliases": [],
+   "locations": [
+    {
+     "id": "special-offer-to-testaahel-members-doha",
+     "nameAr": "عرض خاص لاعضاء تستاهل – الدوحة (تقريبي)",
+     "nameEn": "SPECIAL OFFER TO TESTAAHEL MEMBERS – Doha (approx.)",
+     "lat": 25.2854,
+     "lng": 51.531,
+     "areaAr": "الدوحة",
+     "areaEn": "Doha",
+     "approx": true
+    }
+   ]
+  },
+  {
    "id": "sports-corner",
    "nameEn": "Sports Corner",
    "nameAr": "الركن الرياضي",
@@ -12411,6 +12430,24 @@
      "lng": 51.531,
      "areaAr": "الدوحة",
      "areaEn": "Doha"
+    }
+   ]
+  },
+  {
+   "id": "testaheel-offer-medical-services-discounts",
+   "nameEn": "Testaheel Offer – Medical Services Discounts",
+   "nameAr": "المستشفى التركي",
+   "category": "health",
+   "brandAliases": [],
+   "locations": [
+    {
+     "id": "testaheel-offer-medical-services-discounts-c-ring-road",
+     "nameAr": "المستشفى التركي – الدائري الثالث",
+     "nameEn": "Testaheel Offer – Medical Services Discounts – C Ring Road",
+     "lat": 25.26715,
+     "lng": 51.512199,
+     "areaAr": "الدائري الثالث",
+     "areaEn": "C Ring Road"
     }
    ]
   },
@@ -19990,8 +20027,8 @@
    "discountValue": 10.0,
    "titleAr": "خصم 10% لحاملي بطاقة تستاهل في غاليري لافاييت",
    "titleEn": "10% off for Testaahel cardholders at Galeries Lafayette",
-   "conditionsAr": "غاليري لافاييت. خصم ١٠٪ على ماركات غاليري لافاييت للتجميل والأزياء. الخصم ينطبق على العلامات التجارية المباشرة فقط. صالح فقط في غاليري لافاييت الدوحة. لا يمكن الجمع بين الخصم المقدم مع برامج المكافآت الأخرى وبطاقات هدايا الشركات والقسائم الترويجية. :ساعات العمل. السبت – الأربعاء: ١٠ صباحاً – ١٠ مساء. الخميس: ١٠ صباحاً – ١٢ منتصف الليل. الجمعة: ١:٣٠ ظهراً – ١٢ منتصف الليل. للتواصل. 44473404. info@galerieslafayette.qa. العنوان. الهاتف: +974 4447 3404. لحاملي بطاقة تستاهل؛ تُعرض البطاقة قبل الدفع. النسبة مأخوذة من وصف العرض على موقع تستاهل. مكرر على الموقع: https://www.testaahel.qa/offer/965.",
-   "conditionsEn": "Galeries Lafayette. خصم ١٠٪ على ماركات غاليري لافاييت للتجميل والأزياء. الخصم ينطبق على العلامات التجارية المباشرة فقط. صالح فقط في غاليري لافاييت الدوحة. لا يمكن الجمع بين الخصم المقدم مع برامج المكافآت الأخرى وبطاقات هدايا الشركات والقسائم الترويجية. :ساعات العمل. السبت – الأربعاء: ١٠ صباحاً – ١٠ مساء. الخميس: ١٠ صباحاً – ١٢ منتصف الليل. الجمعة: ١:٣٠ ظهراً – ١٢ منتصف الليل. للتواصل. 44473404. info@galerieslafayette.qa. العنوان. Phone: +974 4447 3404. For Testaahel cardholders; show the card before paying. Percentage taken from the offer description on testaahel.qa. Also listed as https://www.testaahel.qa/offer/965.",
+   "conditionsAr": "غاليري لافاييت. خصم ١٠٪ على ماركات غاليري لافاييت للتجميل والأزياء. الخصم ينطبق على العلامات التجارية المباشرة فقط. صالح فقط في غاليري لافاييت الدوحة. لا يمكن الجمع بين الخصم المقدم مع برامج المكافآت الأخرى وبطاقات هدايا الشركات والقسائم الترويجية. :ساعات العمل. السبت – الأربعاء: ١٠ صباحاً – ١٠ مساء. الخميس: ١٠ صباحاً – ١٢ منتصف الليل. الجمعة: ١:٣٠ ظهراً – ١٢ منتصف الليل. للتواصل. 44473404. info@galerieslafayette.qa. العنوان. الهاتف: +974 4447 3404. لحاملي بطاقة تستاهل؛ تُعرض البطاقة قبل الدفع. النسبة مأخوذة من وصف العرض على موقع تستاهل.",
+   "conditionsEn": "Galeries Lafayette. خصم ١٠٪ على ماركات غاليري لافاييت للتجميل والأزياء. الخصم ينطبق على العلامات التجارية المباشرة فقط. صالح فقط في غاليري لافاييت الدوحة. لا يمكن الجمع بين الخصم المقدم مع برامج المكافآت الأخرى وبطاقات هدايا الشركات والقسائم الترويجية. :ساعات العمل. السبت – الأربعاء: ١٠ صباحاً – ١٠ مساء. الخميس: ١٠ صباحاً – ١٢ منتصف الليل. الجمعة: ١:٣٠ ظهراً – ١٢ منتصف الليل. للتواصل. 44473404. info@galerieslafayette.qa. العنوان. Phone: +974 4447 3404. For Testaahel cardholders; show the card before paying. Percentage taken from the offer description on testaahel.qa.",
    "validFrom": null,
    "validUntil": null,
    "tiers": [],
@@ -26766,6 +26803,23 @@
    "lastCheckedAt": "2026-11-17"
   },
   {
+   "id": "testaahel-special-offer-to-testaahel-members",
+   "programId": "testaahel",
+   "merchantId": "special-offer-to-testaahel-members",
+   "discountType": "percent",
+   "discountValue": 10.0,
+   "titleAr": "خصم 10% لحاملي بطاقة تستاهل في عرض خاص لاعضاء تستاهل",
+   "titleEn": "10% off for Testaahel cardholders at SPECIAL OFFER TO TESTAAHEL MEMBERS",
+   "conditionsAr": "غاليري لافاييت. مشاركة بعض العلامات التجارية بالتجزئة والامانة. قسم الازياء. الشروط والاحكام: يطبق خصم ١٠% على هذه الماركات. الخصم يطبّق على البضائع الكاملة السعر فقط. لا ينطبق الخصم على بعض السلع لبعض هذه الماركات التجارية. الخصم يطبّق في متجر غاليري لافاييت بشكل حصري. لا يمكن الجمع بين الخصم المقدم مع أي من برامج المكافآت الأخرى وبطاقات هدايا الشركات والقسائم الترويجية. الهاتف: 974 4447 3404. المنطقة 66. لحاملي بطاقة تستاهل؛ تُعرض البطاقة قبل الدفع. التفاصيل الكاملة في ملف PDF المرفق على موقع تستاهل. النسبة مأخوذة من وصف العرض على موقع تستاهل.",
+   "conditionsEn": "GALERIES LAFAYETTE. PARTICIPATION OF SOME CONSIGNMNET AND CONSECCION BRANDS. FASHION SECTION. Terms & Conditions: A 10% discount is applicable. Discount applicable on full-price merchandise only. Selected items from certain brands are excluded. Valid exclusively at Galeries Lafayette Doha. Offered discount cannot be combined in conjunction with other reward programs,. corporate gift cards, and promotional vouchers. Phone: 974 4447 3404. Zone 66. For Testaahel cardholders; show the card before paying. Full details in the PDF attached on testaahel.qa. Percentage taken from the offer description on testaahel.qa.",
+   "validFrom": null,
+   "validUntil": null,
+   "tiers": [],
+   "source": "https://www.testaahel.qa/offer/965",
+   "verified": true,
+   "lastCheckedAt": "2026-11-17"
+  },
+  {
    "id": "testaahel-sports-corner",
    "programId": "testaahel",
    "merchantId": "sports-corner",
@@ -27374,6 +27428,23 @@
    "validUntil": null,
    "tiers": [],
    "source": "https://www.testaahel.qa/offer/324",
+   "verified": true,
+   "lastCheckedAt": "2026-11-17"
+  },
+  {
+   "id": "testaahel-testaheel-offer-medical-services-discounts",
+   "programId": "testaahel",
+   "merchantId": "testaheel-offer-medical-services-discounts",
+   "discountType": "percent",
+   "discountValue": 70.0,
+   "titleAr": "خصم 70% لحاملي بطاقة تستاهل في المستشفى التركي",
+   "titleEn": "70% off for Testaahel cardholders at Testaheel Offer – Medical Services Discounts",
+   "conditionsAr": "المستشفى التركي. خصومات على الخدمات الطبية - عرض تستاهل. الهاتف: 4499 2444. المنطقة 40. لحاملي بطاقة تستاهل؛ تُعرض البطاقة قبل الدفع. التفاصيل الكاملة في ملف PDF المرفق على موقع تستاهل. النسبة مأخوذة من وصف العرض على موقع تستاهل.",
+   "conditionsEn": "Turkish Hospital. خصومات على الخدمات الطبية - عرض تستاهل. Phone: 4499 2444. Zone 40. For Testaahel cardholders; show the card before paying. Full details in the PDF attached on testaahel.qa. Percentage taken from the offer description on testaahel.qa.",
+   "validFrom": null,
+   "validUntil": null,
+   "tiers": [],
+   "source": "https://www.testaahel.qa/offer/975",
    "verified": true,
    "lastCheckedAt": "2026-11-17"
   },
@@ -28116,8 +28187,8 @@
    "discountValue": 70.0,
    "titleAr": "خصم 70% لحاملي بطاقة تستاهل في المستشفى التركي",
    "titleEn": "70% off for Testaahel cardholders at Turkish Hospital",
-   "conditionsAr": "المستشفى التركي. الهاتف: +974 449 92 444. المنطقة 40. لحاملي بطاقة تستاهل؛ تُعرض البطاقة قبل الدفع. التفاصيل الكاملة في ملف PDF المرفق على موقع تستاهل. النسبة مأخوذة من وصف العرض على موقع تستاهل. مكرر على الموقع: https://www.testaahel.qa/offer/975.",
-   "conditionsEn": "Turkish Hospital. Phone: +974 449 92 444. Zone 40. For Testaahel cardholders; show the card before paying. Full details in the PDF attached on testaahel.qa. Percentage taken from the offer description on testaahel.qa. Also listed as https://www.testaahel.qa/offer/975.",
+   "conditionsAr": "المستشفى التركي. الهاتف: +974 449 92 444. المنطقة 40. لحاملي بطاقة تستاهل؛ تُعرض البطاقة قبل الدفع. التفاصيل الكاملة في ملف PDF المرفق على موقع تستاهل. النسبة مأخوذة من وصف العرض على موقع تستاهل.",
+   "conditionsEn": "Turkish Hospital. Phone: +974 449 92 444. Zone 40. For Testaahel cardholders; show the card before paying. Full details in the PDF attached on testaahel.qa. Percentage taken from the offer description on testaahel.qa.",
    "validFrom": null,
    "validUntil": null,
    "tiers": [],
