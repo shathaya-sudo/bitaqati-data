@@ -1,0 +1,40 @@
+name: Refresh Bitaqati data
+
+# Every two days at 02:00 UTC (05:00 Doha), or on demand from the Actions tab.
+on:
+  schedule:
+    - cron: "0 2 */2 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Crawl testaahel.qa into the Testaahel part (ids kept from the previous part)
+        run: python3 -I tools/refresh_testaahel.py --out parts/testaahel.json --seed seed.json --cache /tmp/cache --workers 3 --delay 0.4
+
+      - name: Merge into seed.json, drop offers that vanished, flag approximate locations, check
+        run: |
+          python3 -I tools/merge_seed.py seed.json parts --prune-program testaahel
+          python3 -I tools/annotate_locations.py seed.json
+          python3 -I tools/check_seed.py seed.json
+
+      - name: Commit and publish
+        run: |
+          git config user.name "bitaqati-data-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add seed.json parts/testaahel.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "data: refresh $(date -u +%FT%TZ)"
+          git push
