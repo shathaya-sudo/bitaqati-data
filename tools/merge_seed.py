@@ -162,7 +162,7 @@ def main():
             m["brandAliases"] = list(dict.fromkeys(m.get("brandAliases", []) + fix.get("brandAliases", [])))
     seed["merchants"] = sorted(merchants.values(), key=lambda m: m["id"])
     import annotate_locations
-    print(f"approx locations flagged: {annotate_locations.annotate(seed)}")
+    print(f"approx locations flagged: {annotate_locations.annotate(seed, annotate_locations.load_venues(seed_path))}")
     seed["offers"] = sorted(offers.values(), key=lambda o: o["id"])
     # Full UTC timestamp: the app swaps in a downloaded catalog only when its generatedAt string is
     # greater, so two refreshes on the same day must differ (ISO 8601 strings compare correctly).

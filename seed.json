@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-18T12:57:07Z",
+  "generatedAt": "2026-11-18T13:03:57Z",
   "programs": [
     {
       "id": "alsafwa",
@@ -509,7 +509,10 @@
       "nameAr": "مجمع العبير الطبي",
       "nameEn": "Abeer Medical Center",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "Al Abeer Midical Center",
+        "مركز العبير الطبي"
+      ],
       "locations": [
         {
           "id": "abeer-medical-center-1",
@@ -631,7 +634,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "adidas-doha",
@@ -814,7 +818,8 @@
           "lat": 25.325,
           "lng": 51.47,
           "areaAr": "شارع جاسم بن حمد رقم244 بناية رقم 211 - مدينة خليفة الجنوبية",
-          "areaEn": "Madinat Khalifa"
+          "areaEn": "Madinat Khalifa",
+          "approx": true
         }
       ]
     },
@@ -1059,25 +1064,6 @@
       ]
     },
     {
-      "id": "al-abeer-midical-center",
-      "nameEn": "Al Abeer Midical Center",
-      "nameAr": "مركز العبير الطبي",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "al-abeer-midical-center-doha",
-          "nameAr": "مركز العبير الطبي – الدوحة (تقريبي)",
-          "nameEn": "Al Abeer Midical Center – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "al-ahli-martial-arts-academy",
       "nameEn": "Al Ahli Martial Arts Academy",
       "nameAr": "أكاديمية النادي الأهلي لفنون الدفاع عن النفس",
@@ -1160,7 +1146,8 @@
           "lat": 25.325,
           "lng": 51.47,
           "areaAr": "مدينة خليفة",
-          "areaEn": "Madinat Khalifa"
+          "areaEn": "Madinat Khalifa",
+          "approx": true
         }
       ]
     },
@@ -1178,7 +1165,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "شارع الهداب، الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -1347,7 +1335,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "شارع سلوى، شارع 340، المنطقة 39، المبنى 90",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -1384,7 +1373,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الدفنة شارع 801منطقة66بناية 162",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -1402,7 +1392,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "السد، شارع الضفاف، مجمع تشوس التجاري، الطابق الأول",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -1441,7 +1432,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "فرع طريق سلوى، فرع الوكرة، فرع الريان، فرع السلطة",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -1463,7 +1455,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -1481,7 +1474,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -1518,7 +1512,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "برج إكسيلنس، الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -1730,7 +1725,9 @@
       "category": "other",
       "brandAliases": [
         "Al Hemaya Insurance Brokerage",
-        "Al Hemaya"
+        "Al Hemaya",
+        "Al Hemaya Insurance Brokerage W.L.L",
+        "الحماية لوساطة التأمين ذ.م.م"
       ],
       "locations": [
         {
@@ -1740,25 +1737,7 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
-        }
-      ]
-    },
-    {
-      "id": "al-hemaya-insurance-brokerage-w-l-l",
-      "nameAr": "الحماية لوساطة التأمين ذ.م.م",
-      "nameEn": "Al Hemaya Insurance Brokerage W.L.L",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "al-hemaya-insurance-brokerage-w-l-l-1",
-          "nameAr": "الحماية لوساطة التأمين ذ.م.م",
-          "nameEn": "Al Hemaya Insurance Brokerage W.L.L",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "برج بن الشيخ - أم غويلينة، الدوحة، قطر",
-          "areaEn": "Doha",
+          "areaEn": "Lusail",
           "approx": true
         }
       ]
@@ -1796,7 +1775,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع القلعة، الريان الجديد، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -1837,7 +1817,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "al-jaber-optical-al-wakrah",
@@ -1909,7 +1890,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "السد، رويال بلازا",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -2013,7 +1995,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "معيذر - الدوحة - الوكرة - الريان",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -2062,7 +2045,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الدفنة – ابوهامور",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -2080,7 +2064,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -2216,7 +2201,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "شارع الهداب، الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -2651,7 +2637,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "نادي الدوحة للجولف، شارع ملعب الجولف، لوسيل، الدوحة، قطر",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -2765,7 +2752,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "شارع السد، السد، الدوحة، قطر",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -2821,7 +2809,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "المطار - ابوهامور - بروة/الصناعية - الوكرة - عين خالد",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         },
         {
           "id": "al-rayes-laundry-doha",
@@ -2879,7 +2868,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -2963,7 +2953,8 @@
           "lat": 25.348,
           "lng": 51.47,
           "areaAr": "جنوب الدحيل -أم للخبا",
-          "areaEn": "Al Duhail"
+          "areaEn": "Al Duhail",
+          "approx": true
         }
       ]
     },
@@ -2981,7 +2972,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "السد بلازا",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -3049,7 +3041,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -3067,7 +3060,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "فرع السد- فرع الريان -فرع الغرافة - فرع الوكرة - فرع روضة الحمامة-دوحة فيستفال سيتي-الشحانيه",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -3124,7 +3118,8 @@
           "lat": 25.266,
           "lng": 51.552,
           "areaAr": "المطار القديم",
-          "areaEn": "Old Airport"
+          "areaEn": "Old Airport",
+          "approx": true
         }
       ]
     },
@@ -3339,7 +3334,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -3349,7 +3345,9 @@
       "nameAr": "مركز التواصل التخصصي",
       "category": "health",
       "brandAliases": [
-        "Al Tawasul specialized center"
+        "Al Tawasul specialized center",
+        "Al Tawasul Specialized Center for ENT",
+        "مركز التواصل التخصصي للأنف والأذن والحنجرة"
       ],
       "locations": [
         {
@@ -3360,25 +3358,6 @@
           "lng": 51.47734,
           "areaAr": "السودان",
           "areaEn": "Al Sudan"
-        }
-      ]
-    },
-    {
-      "id": "al-tawasul-specialized-center-for-ent",
-      "nameAr": "مركز التواصل التخصصي للأنف والأذن والحنجرة",
-      "nameEn": "Al Tawasul Specialized Center for ENT",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "al-tawasul-specialized-center-for-ent-1",
-          "nameAr": "مركز التواصل التخصصي للأنف والأذن والحنجرة",
-          "nameEn": "Al Tawasul Specialized Center for ENT",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "ابو هامور",
-          "areaEn": "Doha",
-          "approx": true
         }
       ]
     },
@@ -3520,7 +3499,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "فرع السد-فرع اللاند مارك-الغرافة-سلوي-الخور-الريان -الوكرة",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -3686,7 +3666,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "alfardan-vendome",
@@ -3748,12 +3729,26 @@
       ]
     },
     {
-      "id": "alfardan-medical",
-      "nameEn": "Alfardan Medical",
-      "nameAr": "الفردان الطبية",
+      "id": "alfardan-medical-centre",
+      "nameAr": "مركز الفردان الطبي مع نورث وسترن مديسن",
+      "nameEn": "Alfardan Medical with Northwestern Medicine",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "Alfardan Medical Centre",
+        "AMNM",
+        "Alfardan Medical",
+        "الفردان الطبية"
+      ],
       "locations": [
+        {
+          "id": "amnm-burj-alfardan",
+          "nameAr": "مركز الفردان الطبي – برج الفردان، لوسيل",
+          "nameEn": "Alfardan Medical – Burj Alfardan, Lusail",
+          "lat": 25.3975,
+          "lng": 51.5115,
+          "areaAr": "لوسيل",
+          "areaEn": "Lusail"
+        },
         {
           "id": "alfardan-medical-gewan-island",
           "nameAr": "الفردان الطبية – جزيرة جيوان",
@@ -3772,27 +3767,6 @@
           "lat": 25.286297,
           "lng": 51.53457,
           "source": "https://www.testaahel.qa/map/markers"
-        }
-      ]
-    },
-    {
-      "id": "alfardan-medical-centre",
-      "nameAr": "مركز الفردان الطبي مع نورث وسترن مديسن",
-      "nameEn": "Alfardan Medical with Northwestern Medicine",
-      "category": "health",
-      "brandAliases": [
-        "Alfardan Medical Centre",
-        "AMNM"
-      ],
-      "locations": [
-        {
-          "id": "amnm-burj-alfardan",
-          "nameAr": "مركز الفردان الطبي – برج الفردان، لوسيل",
-          "nameEn": "Alfardan Medical – Burj Alfardan, Lusail",
-          "lat": 25.3975,
-          "lng": 51.5115,
-          "areaAr": "لوسيل",
-          "areaEn": "Lusail"
         }
       ]
     },
@@ -4116,7 +4090,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "العب، لوسيل، الضعاين، قطر",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -4156,7 +4131,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الريان - محيرجة",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -4528,7 +4504,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "قطر مول - الريان",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         },
         {
           "id": "alrayyan-hotel",
@@ -4574,7 +4551,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "فرع السد-فرع الغرافة -فرع ام صلال",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -4611,7 +4589,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -4857,7 +4836,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -4925,7 +4905,8 @@
           "lat": 25.27,
           "lng": 51.51,
           "areaAr": "الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -4943,7 +4924,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى، منطقه 55، شارع 340، مبنى 280، معرض رقم 4",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -5184,7 +5166,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -5578,7 +5561,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الريان، معيذر الشمالية، شارع 652",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -5596,7 +5580,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "شارع سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -5673,7 +5658,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "شارع السد، الدوحة، قطر",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -5915,7 +5901,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "النايف سكوير، الريان",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -6131,7 +6118,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع عثمان بن عفان، العزيزية، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -6463,7 +6451,8 @@
           "lat": 25.399,
           "lng": 51.508,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "basta-the-pearl",
@@ -6905,7 +6894,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "bershka-landmark",
@@ -6914,7 +6904,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "bershka-moq",
@@ -6932,7 +6923,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "bershka-villaggio",
@@ -7070,7 +7062,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل، سيتي بلازا ،الدور الثالث",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -7446,36 +7439,19 @@
       ]
     },
     {
-      "id": "body-storm-sport",
-      "nameAr": "بدي ستورم سبورت",
-      "nameEn": "BodyStorm Sport",
-      "category": "health",
-      "brandAliases": [
-        "Body Storm Sport",
-        "بدي ستورم",
-        "Bodystorm",
-        "EMS BodyStorm",
-        "بودي ستورم"
-      ],
-      "locations": [
-        {
-          "id": "body-storm-sport-main",
-          "nameAr": "بدي ستورم – مبنى أيكونيك 2022",
-          "nameEn": "BodyStorm – Iconic 2022 Building",
-          "lat": 25.2685,
-          "lng": 51.448,
-          "areaAr": "أسباير",
-          "areaEn": "Aspire Zone"
-        }
-      ]
-    },
-    {
       "id": "bodystorm-sport-and-fitness",
       "nameEn": "Bodystorm Sport and Fitness",
       "nameAr": "بودي ستورم للرياضة واللياقة",
       "category": "health",
       "brandAliases": [
-        "بودي ستورم للرياضة و اللياقة"
+        "بودي ستورم للرياضة و اللياقة",
+        "BodyStorm Sport",
+        "بدي ستورم سبورت",
+        "Body Storm Sport",
+        "بدي ستورم",
+        "Bodystorm",
+        "EMS BodyStorm",
+        "بودي ستورم"
       ],
       "locations": [
         {
@@ -7486,6 +7462,15 @@
           "lng": 51.44983,
           "areaAr": "فيلاجيو",
           "areaEn": "Villaggio"
+        },
+        {
+          "id": "body-storm-sport-main",
+          "nameAr": "بدي ستورم – مبنى أيكونيك 2022",
+          "nameEn": "BodyStorm – Iconic 2022 Building",
+          "lat": 25.2685,
+          "lng": 51.448,
+          "areaAr": "أسباير",
+          "areaEn": "Aspire Zone"
         }
       ]
     },
@@ -7506,7 +7491,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "boggi-milano-zone-54",
@@ -8026,7 +8012,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "فرع بروة – فرع أم صلال محمد – فرع شارع سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         },
         {
           "id": "brymax-lighting-zone-71",
@@ -8262,25 +8249,6 @@
       ]
     },
     {
-      "id": "butcher",
-      "nameEn": "Butcher",
-      "nameAr": "مطعم بوتشر شوب و جريل",
-      "category": "restaurant",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "butcher-doha",
-          "nameAr": "مطعم بوتشر شوب و جريل – الدوحة (تقريبي)",
-          "nameEn": "Butcher – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "by-kilian",
       "nameAr": "باي كيليان",
       "nameEn": "By Kilian",
@@ -8315,7 +8283,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "دوحة فستيفال سيتي",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         }
       ]
     },
@@ -8462,7 +8431,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "calzedonia-moq",
@@ -8642,7 +8612,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "الغرافة - الوكرة - معيذر",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -8907,7 +8878,8 @@
           "lat": 25.2947,
           "lng": 51.5325,
           "areaAr": "الكورنيش",
-          "areaEn": "Corniche"
+          "areaEn": "Corniche",
+          "approx": true
         }
       ]
     },
@@ -8993,7 +8965,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "الأصمخ مول - دار السلام - جلف مول -فستيفال مول",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         }
       ]
     },
@@ -9002,7 +8975,10 @@
       "nameAr": "سنترو كابيتال الدوحة",
       "nameEn": "Centro Capital Doha",
       "category": "hotel",
-      "brandAliases": [],
+      "brandAliases": [
+        "Centro Capital Rotana",
+        "فندق سنترو كابيتال الدوحة من روتانا"
+      ],
       "locations": [
         {
           "id": "centro-capital-doha-1",
@@ -9012,16 +8988,7 @@
           "lng": 51.52,
           "areaAr": "شارع الجزيرة، الدوحة، قطر",
           "areaEn": "Al Jazeera Street"
-        }
-      ]
-    },
-    {
-      "id": "centro-capital-rotana",
-      "nameEn": "Centro Capital Rotana",
-      "nameAr": "فندق سنترو كابيتال الدوحة من روتانا",
-      "category": "hotel",
-      "brandAliases": [],
-      "locations": [
+        },
         {
           "id": "centro-capital-rotana-fereej-bin-mahmoud",
           "nameAr": "فندق سنترو كابيتال الدوحة من روتانا – فريج بن محمود",
@@ -9156,69 +9123,14 @@
       ]
     },
     {
-      "id": "charger",
-      "nameAr": "تشارجر",
-      "nameEn": "CHARGER",
-      "category": "restaurant",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "charger-1",
-          "nameAr": "تشارجر",
-          "nameEn": "CHARGER",
-          "lat": 25.4059,
-          "lng": 51.495,
-          "areaAr": "فيلاجيو -دحيل- اسباير -لوسيل -كتارا -الوكرة",
-          "areaEn": "Lusail"
-        },
-        {
-          "id": "charger-katara",
-          "nameAr": "تشارجر – كتارا",
-          "nameEn": "CHARGER – Katara",
-          "lat": 25.36174,
-          "lng": 51.52782,
-          "areaAr": "كتارا",
-          "areaEn": "Katara",
-          "source": "apple-maps"
-        },
-        {
-          "id": "charger-al-rayyan",
-          "nameAr": "تشارجر – الريان",
-          "nameEn": "CHARGER – Al Rayyan",
-          "lat": 25.26025,
-          "lng": 51.44989,
-          "areaAr": "الريان",
-          "areaEn": "Al Rayyan",
-          "source": "apple-maps"
-        },
-        {
-          "id": "charger-doha",
-          "nameAr": "تشارجر – الدوحة",
-          "nameEn": "CHARGER – Doha",
-          "lat": 25.37479,
-          "lng": 51.4679,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "source": "apple-maps"
-        },
-        {
-          "id": "charger-zone-90",
-          "nameAr": "تشارجر – منطقة 90",
-          "nameEn": "CHARGER – Zone 90",
-          "lat": 25.16813,
-          "lng": 51.59788,
-          "areaAr": "منطقة 90",
-          "areaEn": "Zone 90",
-          "source": "apple-maps"
-        }
-      ]
-    },
-    {
       "id": "charger-cafe",
       "nameEn": "Charger Cafe",
       "nameAr": "تشارجر كافية",
       "category": "cafe",
-      "brandAliases": [],
+      "brandAliases": [
+        "CHARGER",
+        "تشارجر"
+      ],
       "locations": [
         {
           "id": "charger-cafe-doha",
@@ -9258,6 +9170,26 @@
           "lng": 51.59788,
           "areaAr": "منطقة 90",
           "areaEn": "Zone 90",
+          "source": "apple-maps"
+        },
+        {
+          "id": "charger-1",
+          "nameAr": "تشارجر",
+          "nameEn": "CHARGER",
+          "lat": 25.4059,
+          "lng": 51.495,
+          "areaAr": "فيلاجيو -دحيل- اسباير -لوسيل -كتارا -الوكرة",
+          "areaEn": "Lusail",
+          "approx": true
+        },
+        {
+          "id": "charger-al-rayyan",
+          "nameAr": "تشارجر – الريان",
+          "nameEn": "CHARGER – Al Rayyan",
+          "lat": 25.26025,
+          "lng": 51.44989,
+          "areaAr": "الريان",
+          "areaEn": "Al Rayyan",
           "source": "apple-maps"
         }
       ]
@@ -9305,7 +9237,8 @@
           "lat": 25.27,
           "lng": 51.51,
           "areaAr": "شارع البدر، الطريق الدائري الثالث، الدوحة، قطر",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -9705,7 +9638,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "منارة لوسيل، طابق رقم 13",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -10054,7 +9988,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "مبنى 66، شارع لجميلية، لوسيل، قطر",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -10104,7 +10039,8 @@
           "lat": 25.3195,
           "lng": 51.5285,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -10340,7 +10276,8 @@
           "lat": 25.266,
           "lng": 51.552,
           "areaAr": "المطار القديم",
-          "areaEn": "Old Airport"
+          "areaEn": "Old Airport",
+          "approx": true
         }
       ]
     },
@@ -10640,7 +10577,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         },
         {
           "id": "dana-club-zone-62",
@@ -10988,7 +10926,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "المنطقة 61 ، مبنى 31 ، شارع أبا المسان بلومسان 831 - الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -11025,7 +10964,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى - Salwa roud",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -11221,7 +11161,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "السد-سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         },
         {
           "id": "diet-center-al-asmakh-mall",
@@ -11427,7 +11368,8 @@
           "lat": 25.399,
           "lng": 51.508,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "divan-moq",
@@ -11475,7 +11417,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "فرع السد ،شارع الكنانة - فرع لوسيل، برج المارينا رقم 50",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -11572,7 +11515,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الدفنة",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -11755,7 +11699,8 @@
           "lng": 51.61384,
           "areaAr": "الدوحة",
           "areaEn": "Doha",
-          "source": "apple-maps"
+          "source": "apple-maps",
+          "approx": true
         },
         {
           "id": "dolce-gabbana-zone-54",
@@ -11793,7 +11738,8 @@
           "lat": 25.325,
           "lng": 51.47,
           "areaAr": "شارع جاسم بن حمد، مدينة خليفة الجنوبية",
-          "areaEn": "Madinat Khalifa"
+          "areaEn": "Madinat Khalifa",
+          "approx": true
         }
       ]
     },
@@ -12070,7 +12016,8 @@
           "lat": 25.325,
           "lng": 51.47,
           "areaAr": "شارع الرويس -مدينة خليفة الشمالية",
-          "areaEn": "Madinat Khalifa"
+          "areaEn": "Madinat Khalifa",
+          "approx": true
         }
       ]
     },
@@ -12148,7 +12095,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -12300,7 +12248,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "شارع السد العام",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         },
         {
           "id": "dukhan-bank-doha",
@@ -12368,7 +12317,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         },
         {
           "id": "dunlop-zone-53",
@@ -12449,7 +12399,9 @@
       "category": "restaurant",
       "brandAliases": [
         "Eataly",
-        "ايتالي"
+        "ايتالي",
+        "Italian restaurant",
+        "مطعم ايتالي"
       ],
       "locations": [
         {
@@ -12459,7 +12411,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "eataly-doha-vendome",
@@ -12468,7 +12421,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -12533,7 +12487,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "برج أعمال، شارع عمر المختار، المنطقة 63، شارع رقم 841، الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -12653,31 +12608,14 @@
       ]
     },
     {
-      "id": "electric",
-      "nameEn": "Electric",
-      "nameAr": "الكترك داينر",
-      "category": "restaurant",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "electric-doha",
-          "nameAr": "الكترك داينر – الدوحة (تقريبي)",
-          "nameEn": "Electric – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "electric-diner",
       "nameAr": "إلكتريك داينر",
       "nameEn": "Electric Diner",
       "category": "restaurant",
       "brandAliases": [
-        "The Ned Doha"
+        "The Ned Doha",
+        "Electric",
+        "الكترك داينر"
       ],
       "locations": [
         {
@@ -12687,7 +12625,8 @@
           "lat": 25.2947,
           "lng": 51.5325,
           "areaAr": "الكورنيش",
-          "areaEn": "Corniche"
+          "areaEn": "Corniche",
+          "approx": true
         }
       ]
     },
@@ -12755,7 +12694,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "منطقة 61 ، شارع بولماسان - الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -12773,7 +12713,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "المنطقة 61، شارع الطواويش - الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -12829,7 +12770,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "مدينتنا,الوكرة",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -12884,7 +12826,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         },
         {
           "id": "elite-motors-zone-56",
@@ -13049,7 +12992,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "ازدان مول الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -13166,7 +13110,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع روضة أم الغربان، عين خالد، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -13298,7 +13243,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "شارع السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -13440,7 +13386,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع 1138، مدينة بروة، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -13458,7 +13405,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "ويست باي – المدينة التعليمية - السد",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         },
         {
           "id": "f45-training-zone-63",
@@ -13574,7 +13522,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "شارع 6، منطقة مارينا لوسيل - مدينة لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -13592,7 +13541,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى، اسلطة الجديدة، الدوحة، قطر",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -13902,7 +13852,10 @@
       "nameAr": "المركز الأول للأسنان",
       "nameEn": "First Dental Center",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "First Dental Center - Al Nuaija Branch",
+        "المركز الأول للأسنان – فرع النعيجة"
+      ],
       "locations": [
         {
           "id": "first-dental-center-1",
@@ -13913,25 +13866,6 @@
           "areaAr": "منطقة 33",
           "areaEn": "Zone 33",
           "source": "apple-maps"
-        }
-      ]
-    },
-    {
-      "id": "first-dental-center-al-nuaija-branch",
-      "nameEn": "First Dental Center - Al Nuaija Branch",
-      "nameAr": "المركز الأول للأسنان – فرع النعيجة",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "first-dental-center-al-nuaija-branch-nuaija",
-          "nameAr": "المركز الأول للأسنان – فرع النعيجة – النعيجة (تقريبي)",
-          "nameEn": "First Dental Center - Al Nuaija Branch – Nuaija (approx.)",
-          "lat": 25.262,
-          "lng": 51.526,
-          "areaAr": "النعيجة",
-          "areaEn": "Nuaija",
-          "approx": true
         }
       ]
     },
@@ -13949,7 +13883,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -13967,7 +13902,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي- ستي سنتر الدوحة",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -14127,30 +14063,14 @@
       ]
     },
     {
-      "id": "flexzilla",
-      "nameEn": "Flexzilla",
-      "nameAr": "فلكس زيلا للمكملات الغذائية",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "flexzilla-salwa-road",
-          "nameAr": "فلكس زيلا للمكملات الغذائية – طريق سلوى (تقريبي)",
-          "nameEn": "Flexzilla – Salwa Road (approx.)",
-          "lat": 25.246,
-          "lng": 51.467,
-          "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "flexzilla-supplements",
       "nameAr": "فلكس زيلا مكملات الغذائية",
       "nameEn": "Flexzilla Supplements",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "Flexzilla",
+        "فلكس زيلا للمكملات الغذائية"
+      ],
       "locations": [
         {
           "id": "flexzilla-supplements-1",
@@ -14159,7 +14079,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -14279,7 +14200,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "flying-tiger-copenhagen-city-center",
@@ -14297,7 +14219,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "flying-tiger-copenhagen-moq",
@@ -14357,7 +14280,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "لاجونا مول - دوحة فستيفال ستي - بلاس فاندوم",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         },
         {
           "id": "fnac-lusail",
@@ -14480,7 +14404,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الريان",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -14571,7 +14496,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -14641,7 +14567,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "فرع ازغوى، فرع الغرافة، فرع الوعب",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         },
         {
           "id": "freshlook-salon-and-spa-al-rayyan",
@@ -14786,7 +14713,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "fun-ville-dfc",
@@ -14795,7 +14723,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "fun-ville-al-sadd",
@@ -15019,7 +14948,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -15368,7 +15298,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "الدوحة فستیفال سیتي",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         }
       ]
     },
@@ -15659,7 +15590,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "godiva-zone-66",
@@ -15865,7 +15797,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -15932,7 +15865,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -15956,30 +15890,14 @@
       ]
     },
     {
-      "id": "green-life",
-      "nameEn": "Green Life",
-      "nameAr": "غرين لايف",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "green-life-doha",
-          "nameAr": "غرين لايف – الدوحة (تقريبي)",
-          "nameEn": "Green Life – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "green-life-center",
       "nameAr": "مركز غرين لايف",
       "nameEn": "Green Life Center",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "Green Life",
+        "غرين لايف"
+      ],
       "locations": [
         {
           "id": "green-life-center-1",
@@ -16177,7 +16095,8 @@
           "lat": 25.27,
           "lng": 51.51,
           "areaAr": "الهلال، طريق الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -16199,7 +16118,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -16297,7 +16217,8 @@
           "lat": 25.2947,
           "lng": 51.5325,
           "areaAr": "الكورنيش",
-          "areaEn": "Corniche"
+          "areaEn": "Corniche",
+          "approx": true
         }
       ]
     },
@@ -16337,7 +16258,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل - برج مارينا A - طابق 26",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "hair-bar-doha",
@@ -16352,30 +16274,14 @@
       ]
     },
     {
-      "id": "hair-era-beauty",
-      "nameEn": "Hair Era Beauty",
-      "nameAr": "هير إيرا بيوتي",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "hair-era-beauty-doha",
-          "nameAr": "هير إيرا بيوتي – الدوحة (تقريبي)",
-          "nameEn": "Hair Era Beauty – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "hair-era-beauty-salon",
       "nameAr": "صالون هير ايرا بيوتي",
       "nameEn": "Hair Era Beauty Salon",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "Hair Era Beauty",
+        "هير إيرا بيوتي"
+      ],
       "locations": [
         {
           "id": "hair-era-beauty-salon-1",
@@ -16384,7 +16290,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "J22 مول، الجابر توين تاور الطابق ميزانين، لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -16402,7 +16309,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "J22 مول، الجابر توين تاور، الطابق الأرضي ، لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -16790,7 +16698,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -16808,7 +16717,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "برج رافال، الطابق 8، شارع 325، لوسيل، قطر",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -16826,7 +16736,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -16844,7 +16755,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "مارينا توين تاور-لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -16995,29 +16907,14 @@
       ]
     },
     {
-      "id": "hindami",
-      "nameAr": "هندامي",
-      "nameEn": "Hindami",
-      "category": "fashion",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "hindami-1",
-          "nameAr": "هندامي",
-          "nameEn": "Hindami",
-          "lat": 25.348,
-          "lng": 51.47,
-          "areaAr": "الدحيل",
-          "areaEn": "Al Duhail"
-        }
-      ]
-    },
-    {
       "id": "hindami-abayas",
       "nameEn": "Hindami Abayas",
       "nameAr": "عبايات هندامي",
       "category": "fashion",
-      "brandAliases": [],
+      "brandAliases": [
+        "Hindami",
+        "هندامي"
+      ],
       "locations": [
         {
           "id": "hindami-abayas-doha",
@@ -17027,6 +16924,16 @@
           "lng": 51.531,
           "areaAr": "الدوحة",
           "areaEn": "Doha",
+          "approx": true
+        },
+        {
+          "id": "hindami-1",
+          "nameAr": "هندامي",
+          "nameEn": "Hindami",
+          "lat": 25.348,
+          "lng": 51.47,
+          "areaAr": "الدحيل",
+          "areaEn": "Al Duhail",
           "approx": true
         }
       ]
@@ -17150,7 +17057,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "قطر مول - الريان",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -17168,7 +17076,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "مارينا توين تاور A ، الطابق 32 ،مكتب 4 - لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -17186,7 +17095,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "الأصمخ مول- فستيفال ستي مول -سيتي سنتر",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         },
         {
           "id": "home-centre-doha",
@@ -17363,7 +17273,8 @@
           "lat": 25.266,
           "lng": 51.552,
           "areaAr": "المطار القديم",
-          "areaEn": "Old Airport"
+          "areaEn": "Old Airport",
+          "approx": true
         }
       ]
     },
@@ -17419,7 +17330,8 @@
           "lat": 25.266,
           "lng": 51.552,
           "areaAr": "المطار القديم",
-          "areaEn": "Old Airport"
+          "areaEn": "Old Airport",
+          "approx": true
         }
       ]
     },
@@ -17773,7 +17685,8 @@
           "lat": 25.26259,
           "lng": 51.53406,
           "areaAr": "الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -17810,7 +17723,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         }
       ]
     },
@@ -17828,7 +17742,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -17951,30 +17866,14 @@
       ]
     },
     {
-      "id": "inspire-center",
-      "nameEn": "Inspire Center",
-      "nameAr": "إنسبير لتأهيل ذوي الاحتاجات الخاصة",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "inspire-center-madinat-khalifa",
-          "nameAr": "إنسبير لتأهيل ذوي الاحتاجات الخاصة – مدينة خليفة (تقريبي)",
-          "nameEn": "Inspire Center – Madinat Khalifa (approx.)",
-          "lat": 25.33,
-          "lng": 51.49,
-          "areaAr": "مدينة خليفة",
-          "areaEn": "Madinat Khalifa",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "inspire-special-needs-therapy-center",
       "nameAr": "مركز انسبير لتأهيل ذوي الاحتياجات الخاصة",
       "nameEn": "Inspire Special Needs Therapy Center",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "Inspire Center",
+        "إنسبير لتأهيل ذوي الاحتاجات الخاصة"
+      ],
       "locations": [
         {
           "id": "inspire-special-needs-therapy-center-1",
@@ -17983,7 +17882,8 @@
           "lat": 25.325,
           "lng": 51.47,
           "areaAr": "مدينة خليفة الشمالية - رقم المبني 71",
-          "areaEn": "Madinat Khalifa"
+          "areaEn": "Madinat Khalifa",
+          "approx": true
         }
       ]
     },
@@ -18001,7 +17901,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "مجمع تيفولي، الريان القديم، الطابق الأول",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -18079,7 +17980,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -18100,7 +18002,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "intimissimi-landmark",
@@ -18109,7 +18012,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "intimissimi-vendome",
@@ -18118,7 +18022,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "intimissimi-villaggio",
@@ -18260,7 +18165,8 @@
           "lat": 25.27,
           "lng": 51.51,
           "areaAr": "الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -18279,25 +18185,6 @@
           "lng": 51.531,
           "areaAr": "فندق جراند حياة الدوحة",
           "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
-      "id": "italian-restaurant",
-      "nameEn": "Italian restaurant",
-      "nameAr": "مطعم ايتالي",
-      "category": "restaurant",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "italian-restaurant-lusail",
-          "nameAr": "مطعم ايتالي – لوسيل (تقريبي)",
-          "nameEn": "Italian restaurant – Lusail (approx.)",
-          "lat": 25.4059,
-          "lng": 51.495,
-          "areaAr": "لوسيل",
-          "areaEn": "Lusail",
           "approx": true
         }
       ]
@@ -18337,7 +18224,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "فرع لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -18475,7 +18363,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "فندق جراند حياة الدوحة، ويست باي، الدوحة",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -18561,7 +18450,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع أسماء، العزيزية، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -18747,7 +18637,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الريان شارع الوجبة بجانب نادي الفروسية",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -19006,7 +18897,8 @@
           "lat": 25.2947,
           "lng": 51.5325,
           "areaAr": "الكورنيش",
-          "areaEn": "Corniche"
+          "areaEn": "Corniche",
+          "approx": true
         }
       ]
     },
@@ -19105,7 +18997,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "السد -الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -19153,7 +19046,8 @@
           "lat": 25.399,
           "lng": 51.508,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "karaki-the-pearl",
@@ -19202,7 +19096,8 @@
           "lat": 25.2609,
           "lng": 51.6138,
           "areaAr": "مطار حمد الدولي",
-          "areaEn": "Hamad International Airport"
+          "areaEn": "Hamad International Airport",
+          "approx": true
         }
       ]
     },
@@ -19355,7 +19250,8 @@
           "lat": 25.325,
           "lng": 51.47,
           "areaAr": "مدينة خليفة الجنوبية",
-          "areaEn": "Madinat Khalifa"
+          "areaEn": "Madinat Khalifa",
+          "approx": true
         }
       ]
     },
@@ -19399,7 +19295,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -19720,7 +19617,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "الوعب -طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -19752,7 +19650,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -19876,7 +19775,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -20506,7 +20406,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -20572,7 +20473,8 @@
           "lat": 25.348,
           "lng": 51.47,
           "areaAr": "الدحيل",
-          "areaEn": "Al Duhail"
+          "areaEn": "Al Duhail",
+          "approx": true
         }
       ]
     },
@@ -20681,7 +20583,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "فندق إنتركونتيننتال الدوحة ذا سيتي، الخليج الغربي، الدوحة",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -20749,7 +20652,8 @@
           "lat": 25.3195,
           "lng": 51.5285,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -20795,7 +20699,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "lacoste-doha",
@@ -21190,7 +21095,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى - الريان",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -21268,7 +21174,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي - الدفنة",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -21286,7 +21193,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل - شارع 347",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -21431,7 +21339,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "lefties-doha",
@@ -21535,7 +21444,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "leto-villaggio",
@@ -21820,7 +21730,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "مدينة مواتر/ فرع مول دوحة فيستقال سيتي / فرع طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -21899,7 +21810,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الدفنة – المعمورة – بوسدرة",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         },
         {
           "id": "little-leaders-nursery-fereej-al-ali",
@@ -22407,7 +22319,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع حير الحربة، عين خالد، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -22425,7 +22338,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع حير الحربة، عين خالد، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -22443,7 +22357,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "قرية بروة، الوكرة، قطر",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -22563,7 +22478,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -22708,7 +22624,9 @@
       "nameEn": "Madina Dental Center",
       "nameAr": "مركز المدينة للأسنان",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "Madina Medical Center"
+      ],
       "locations": [
         {
           "id": "madina-dental-center-al-sadd",
@@ -22739,16 +22657,7 @@
           "areaAr": "الريان",
           "areaEn": "Al Rayyan",
           "source": "apple-maps"
-        }
-      ]
-    },
-    {
-      "id": "madina-medical-center",
-      "nameAr": "مركز المدينة للأسنان",
-      "nameEn": "Madina Medical Center",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
+        },
         {
           "id": "madina-medical-center-1",
           "nameAr": "مركز المدينة للأسنان",
@@ -22756,7 +22665,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "الوعب - اللقطة -السد- أسباير - أبو هامور-الغرافة-معيذر",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -23322,7 +23232,9 @@
       "nameEn": "Malibu Kitchen",
       "category": "restaurant",
       "brandAliases": [
-        "The Ned Doha"
+        "The Ned Doha",
+        "Malibuk",
+        "مالبو كيتشن"
       ],
       "locations": [
         {
@@ -23332,25 +23244,7 @@
           "lat": 25.2947,
           "lng": 51.5325,
           "areaAr": "الكورنيش",
-          "areaEn": "Corniche"
-        }
-      ]
-    },
-    {
-      "id": "malibuk",
-      "nameEn": "Malibuk",
-      "nameAr": "مالبو كيتشن",
-      "category": "restaurant",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "malibuk-doha",
-          "nameAr": "مالبو كيتشن – الدوحة (تقريبي)",
-          "nameEn": "Malibuk – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
+          "areaEn": "Corniche",
           "approx": true
         }
       ]
@@ -23418,7 +23312,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "الدوحة فستیفال سیتي",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         }
       ]
     },
@@ -23504,7 +23399,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -23595,7 +23491,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الدفنة -مقابل السفارة العراقية/منطقة الوسيل مارينا تون",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -23667,7 +23564,8 @@
           "lat": 25.3195,
           "lng": 51.5285,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -23688,7 +23586,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -23751,20 +23650,23 @@
       ]
     },
     {
-      "id": "matnaflex",
-      "nameEn": "Matnaflex",
-      "nameAr": "المصنع الوطني للمراتب",
+      "id": "matnaflex-national-mattress-factory",
+      "nameAr": "متنافلكس المصنع الوطني للمراتب",
+      "nameEn": "Matnaflex National Mattress Factory",
       "category": "other",
-      "brandAliases": [],
+      "brandAliases": [
+        "Matnaflex",
+        "المصنع الوطني للمراتب"
+      ],
       "locations": [
         {
-          "id": "matnaflex-lusail",
-          "nameAr": "المصنع الوطني للمراتب – لوسيل (تقريبي)",
-          "nameEn": "Matnaflex – Lusail (approx.)",
-          "lat": 25.4059,
-          "lng": 51.495,
-          "areaAr": "لوسيل",
-          "areaEn": "Lusail",
+          "id": "matnaflex-national-mattress-factory-1",
+          "nameAr": "متنافلكس المصنع الوطني للمراتب",
+          "nameEn": "Matnaflex National Mattress Factory",
+          "lat": 25.3807,
+          "lng": 51.4475,
+          "areaAr": "فرع المطار- فرع طريق سلوى - فرع الغرافة- فرع فستيفال - فرع طوار مول-فرع آل شافي الريان",
+          "areaEn": "Doha Festival City",
           "approx": true
         },
         {
@@ -23796,24 +23698,6 @@
           "areaAr": "منطقة 81",
           "areaEn": "Zone 81",
           "source": "apple-maps"
-        }
-      ]
-    },
-    {
-      "id": "matnaflex-national-mattress-factory",
-      "nameAr": "متنافلكس المصنع الوطني للمراتب",
-      "nameEn": "Matnaflex National Mattress Factory",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "matnaflex-national-mattress-factory-1",
-          "nameAr": "متنافلكس المصنع الوطني للمراتب",
-          "nameEn": "Matnaflex National Mattress Factory",
-          "lat": 25.3807,
-          "lng": 51.4475,
-          "areaAr": "فرع المطار- فرع طريق سلوى - فرع الغرافة- فرع فستيفال - فرع طوار مول-فرع آل شافي الريان",
-          "areaEn": "Doha Festival City"
         }
       ]
     },
@@ -23852,7 +23736,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "فستيفال سيتي -قطر مول -سيتي سنتر",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         }
       ]
     },
@@ -23980,7 +23865,8 @@
           "lat": 25.348,
           "lng": 51.47,
           "areaAr": "الدحيل - خلف اللاند مارك",
-          "areaEn": "Al Duhail"
+          "areaEn": "Al Duhail",
+          "approx": true
         }
       ]
     },
@@ -24132,7 +24018,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "أبراج الجابر - لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -24211,7 +24098,8 @@
           "lat": 25.27,
           "lng": 51.51,
           "areaAr": "الطريق الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -24350,7 +24238,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "منطقة السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -24575,7 +24464,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "مبنى 157، منطقة، 43، شارع 340، طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -24672,7 +24562,8 @@
           "lat": 25.399,
           "lng": 51.508,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "moka-zone-60",
@@ -24797,7 +24688,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي لاجون",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -25049,7 +24941,8 @@
           "lat": 25.26259,
           "lng": 51.53406,
           "areaAr": "الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -25168,7 +25061,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي ، برج الصر ، مبنى رقم 24، الطابق 13، مكتب رقم 1302",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -25243,7 +25137,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "ازغوى-الريان",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         },
         {
           "id": "my-fair-zone-34",
@@ -25371,7 +25266,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "فرع المطار:شارع المطار، طريق الوكرة، فرع الغرافة: طريق الدوحة السريع",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -25527,7 +25423,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "الوكرة-الريان – طريق الدائري الثالث -طريق الدائري الرابع",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -25572,29 +25469,14 @@
       ]
     },
     {
-      "id": "natuzzi",
-      "nameEn": "Natuzzi",
-      "nameAr": "ناتوزي",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "natuzzi-al-rayyan",
-          "nameAr": "ناتوزي – الريان",
-          "nameEn": "Natuzzi – Al Rayyan",
-          "lat": 25.29845,
-          "lng": 51.4691,
-          "areaAr": "الريان",
-          "areaEn": "Al Rayyan"
-        }
-      ]
-    },
-    {
       "id": "natuzzi-italia",
       "nameAr": "ناتوزي إيطاليا",
       "nameEn": "Natuzzi Italia",
       "category": "other",
-      "brandAliases": [],
+      "brandAliases": [
+        "Natuzzi",
+        "ناتوزي"
+      ],
       "locations": [
         {
           "id": "natuzzi-italia-1",
@@ -25603,6 +25485,16 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع الريان القديم",
+          "areaEn": "Al Rayyan",
+          "approx": true
+        },
+        {
+          "id": "natuzzi-al-rayyan",
+          "nameAr": "ناتوزي – الريان",
+          "nameEn": "Natuzzi – Al Rayyan",
+          "lat": 25.29845,
+          "lng": 51.4691,
+          "areaAr": "الريان",
           "areaEn": "Al Rayyan"
         }
       ]
@@ -25773,7 +25665,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -26206,7 +26099,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -26227,7 +26121,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "oculis-landmark",
@@ -26236,7 +26131,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "oculis-vendome",
@@ -26245,7 +26141,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "oculis-villaggio",
@@ -26533,7 +26430,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "السد - عين خالد- اللاندمارك -الوكرة -الريان -العزيزية- أم صلال",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -26551,7 +26449,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "فرع فستيفال- فرع ستي سنتر",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         },
         {
           "id": "optica-zone-61",
@@ -26668,7 +26567,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الدفنة-الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -26870,7 +26770,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "oysho-landmark",
@@ -26879,7 +26780,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "oysho-moq",
@@ -26897,7 +26799,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "oysho-villaggio",
@@ -26966,7 +26869,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "ozone-salwa",
@@ -26975,7 +26879,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         },
         {
           "id": "ozone-gharafa",
@@ -26993,7 +26898,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "الوكرة",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -27068,7 +26974,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -27105,7 +27012,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الريان",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         },
         {
           "id": "panda-laundry-al-rayyan",
@@ -27402,7 +27310,8 @@
           "lat": 25.2609,
           "lng": 51.6138,
           "areaAr": "مطار حمد الدولي",
-          "areaEn": "Hamad International Airport"
+          "areaEn": "Hamad International Airport",
+          "approx": true
         }
       ]
     },
@@ -27513,7 +27422,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "فرع دحيل-فرع الريان",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -27555,7 +27465,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "paul-landmark",
@@ -27564,7 +27475,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "paul-moq",
@@ -27710,7 +27622,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "Marina Twin Towers, Tower A, Floor 24, Office 241, Lusail City. Street 319,Building No. 34, Zone 69",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -27771,7 +27684,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "طريق الدوحة السريع خلف اللاندمارك",
-          "areaEn": "Landmark"
+          "areaEn": "Landmark",
+          "approx": true
         }
       ]
     },
@@ -27888,7 +27802,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "الخيسة-الوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -27936,7 +27851,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         }
       ]
     },
@@ -28075,7 +27991,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "الوكير، شارع 5، الوكرة، قطر",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -28139,29 +28056,14 @@
       ]
     },
     {
-      "id": "platinum-for-manpower",
-      "nameAr": "بلاتينيوم لجلب الأيدي العاملة",
-      "nameEn": "Platinum For Manpower",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "platinum-for-manpower-1",
-          "nameAr": "بلاتينيوم لجلب الأيدي العاملة",
-          "nameEn": "Platinum For Manpower",
-          "lat": 25.332,
-          "lng": 51.44,
-          "areaAr": "الغرافة",
-          "areaEn": "Al Gharrafa"
-        }
-      ]
-    },
-    {
       "id": "platinum-manpower",
       "nameEn": "Platinum Manpower",
       "nameAr": "بلاتينوم لجلب الايدي العاملة",
       "category": "other",
-      "brandAliases": [],
+      "brandAliases": [
+        "Platinum For Manpower",
+        "بلاتينيوم لجلب الأيدي العاملة"
+      ],
       "locations": [
         {
           "id": "platinum-manpower-doha",
@@ -28171,6 +28073,16 @@
           "lng": 51.531,
           "areaAr": "الدوحة",
           "areaEn": "Doha",
+          "approx": true
+        },
+        {
+          "id": "platinum-for-manpower-1",
+          "nameAr": "بلاتينيوم لجلب الأيدي العاملة",
+          "nameEn": "Platinum For Manpower",
+          "lat": 25.332,
+          "lng": 51.44,
+          "areaAr": "الغرافة",
+          "areaEn": "Al Gharrafa",
           "approx": true
         }
       ]
@@ -28357,7 +28269,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "حضانة بري سكولرز، شارع عمار بن ياسر، العزيزية، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -28496,7 +28409,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "pull-and-bear-landmark",
@@ -28505,7 +28419,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "pull-and-bear-moq",
@@ -28523,7 +28438,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "pull-and-bear-villaggio",
@@ -28713,7 +28629,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "مبنى 102، طريق الوكرة، الوكرة، قطر",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         },
         {
           "id": "q360-car-washing-main",
@@ -28766,7 +28683,8 @@
           "lat": 25.2609,
           "lng": 51.6138,
           "areaAr": "مطار حمد الدولي",
-          "areaEn": "Hamad International Airport"
+          "areaEn": "Hamad International Airport",
+          "approx": true
         },
         {
           "id": "qatar-airways-doha",
@@ -28868,7 +28786,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "qc-royal-plaza",
@@ -28877,7 +28796,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         },
         {
           "id": "qc-the-mall",
@@ -28928,7 +28848,8 @@
           "lat": 25.2609,
           "lng": 51.6138,
           "areaAr": "مطار حمد الدولي",
-          "areaEn": "Hamad International Airport"
+          "areaEn": "Hamad International Airport",
+          "approx": true
         }
       ]
     },
@@ -28965,7 +28886,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الدفنة، الدوحة، قطر",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         },
         {
           "id": "qatar-insurance-company-zone-60",
@@ -29063,7 +28985,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل، برج مارينا، مبنى رقم 108، شارع 303، الطابق الحادي عشر، مكاتب 5 و6 و7",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -29198,7 +29121,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         }
       ]
     },
@@ -29207,7 +29131,10 @@
       "nameEn": "Qatari Czech Medical Center",
       "nameAr": "المركز القطري التشيكي الطبي",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "Qatari Czech Medical Center Physical Therapy",
+        "المركز القطري التشيكي الطبي علاج طبيعي"
+      ],
       "locations": [
         {
           "id": "qatari-czech-medical-center-doha",
@@ -29218,16 +29145,7 @@
           "areaAr": "الدوحة",
           "areaEn": "Doha",
           "approx": true
-        }
-      ]
-    },
-    {
-      "id": "qatari-czech-medical-center-physical-therapy",
-      "nameAr": "المركز القطري التشيكي الطبي علاج طبيعي",
-      "nameEn": "Qatari Czech Medical Center Physical Therapy",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
+        },
         {
           "id": "qatari-czech-medical-center-physical-therapy-1",
           "nameAr": "المركز القطري التشيكي الطبي علاج طبيعي",
@@ -29235,7 +29153,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "شارع سلوى, منطقة عين خالد، منطقة رقم 56، شارع 205، مبنى 32",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -29481,7 +29400,10 @@
       "nameAr": "كيوت بوتيك",
       "nameEn": "Qute Boutique",
       "category": "other",
-      "brandAliases": [],
+      "brandAliases": [
+        "Qute Boutique Gifts",
+        "كيوت بوتيك للهدايا"
+      ],
       "locations": [
         {
           "id": "qute-boutique-1",
@@ -29492,25 +29414,6 @@
           "areaAr": "منطقة 24",
           "areaEn": "Zone 24",
           "source": "apple-maps"
-        }
-      ]
-    },
-    {
-      "id": "qute-boutique-gifts",
-      "nameEn": "Qute Boutique Gifts",
-      "nameAr": "كيوت بوتيك للهدايا",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "qute-boutique-gifts-al-muntazah",
-          "nameAr": "كيوت بوتيك للهدايا – المنتزه (تقريبي)",
-          "nameEn": "Qute Boutique Gifts – Al Muntazah (approx.)",
-          "lat": 25.269,
-          "lng": 51.537,
-          "areaAr": "المنتزه",
-          "areaEn": "Al Muntazah",
-          "approx": true
         }
       ]
     },
@@ -29528,7 +29431,8 @@
           "lat": 25.325,
           "lng": 51.47,
           "areaAr": "مدينة خليفة الجنوبية",
-          "areaEn": "Madinat Khalifa"
+          "areaEn": "Madinat Khalifa",
+          "approx": true
         }
       ]
     },
@@ -29608,7 +29512,8 @@
           "lat": 25.325,
           "lng": 51.47,
           "areaAr": "شارع جاسم بن حمد، مدينة خليفة الجنوبية، الدوحة، قطر",
-          "areaEn": "Madinat Khalifa"
+          "areaEn": "Madinat Khalifa",
+          "approx": true
         },
         {
           "id": "ratwah-laundry-al-rayyan",
@@ -29890,7 +29795,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "مطار حمد الدولي – الطريق الدائري الرابع – الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -29949,7 +29855,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الدفنة، الحي الدبلوماسي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -29985,7 +29892,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "الوكرة",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -30003,7 +29911,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى -أبو نخلة",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -30021,7 +29930,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "شارع عبد الرحمن بن جاسم، الوكرة، قطر",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -30253,7 +30163,10 @@
       "nameEn": "Roche Bobois",
       "nameAr": "روش بوبوا",
       "category": "other",
-      "brandAliases": [],
+      "brandAliases": [
+        "Roche Bobois Paris",
+        "روش بوبوا باريس"
+      ],
       "locations": [
         {
           "id": "roche-bobois-al-rayyan",
@@ -30263,16 +30176,7 @@
           "lng": 51.4691,
           "areaAr": "الريان",
           "areaEn": "Al Rayyan"
-        }
-      ]
-    },
-    {
-      "id": "roche-bobois-paris",
-      "nameAr": "روش بوبوا باريس",
-      "nameEn": "Roche Bobois Paris",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
+        },
         {
           "id": "roche-bobois-paris-1",
           "nameAr": "روش بوبوا باريس",
@@ -30280,7 +30184,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الريان القديم",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -30383,7 +30288,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الوعب، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -30438,7 +30344,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل، منطقة رقم 69، شارع رقم 309، مبنى رقم 11",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "rosewood-doha-lagoona-mall",
@@ -30700,7 +30607,10 @@
       "nameAr": "صالون إس سكويرد",
       "nameEn": "S squared Salon",
       "category": "health",
-      "brandAliases": [],
+      "brandAliases": [
+        "Ssquared Ladies Salon",
+        "صالون إس سكويرد للسيدات"
+      ],
       "locations": [
         {
           "id": "s-squared-salon-1",
@@ -30711,6 +30621,15 @@
           "areaAr": "الخيسة",
           "areaEn": "Doha",
           "approx": true
+        },
+        {
+          "id": "ssquared-ladies-salon-al-kheesa",
+          "nameAr": "صالون إس سكويرد للسيدات – الخيسة",
+          "nameEn": "Ssquared Ladies Salon – Al Kheesa",
+          "lat": 25.39531,
+          "lng": 51.46104,
+          "areaAr": "الخيسة",
+          "areaEn": "Al Kheesa"
         }
       ]
     },
@@ -30809,7 +30728,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "الغرافة - ام قرن",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -30827,7 +30747,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "نادي السد الرياضي",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -31157,30 +31078,14 @@
       ]
     },
     {
-      "id": "savant",
-      "nameAr": "سـافـانـت",
-      "nameEn": "SAVANT",
-      "category": "restaurant",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "savant-1",
-          "nameAr": "سـافـانـت – منطقة 3",
-          "nameEn": "SAVANT – Zone 3",
-          "lat": 25.28684,
-          "lng": 51.52476,
-          "areaAr": "مشيرب الدوحة",
-          "areaEn": "Zone 3",
-          "source": "apple-maps"
-        }
-      ]
-    },
-    {
       "id": "savant-coffee-shop",
       "nameEn": "Savant Coffee Shop",
       "nameAr": "سافانت كوفي شوب",
       "category": "cafe",
-      "brandAliases": [],
+      "brandAliases": [
+        "SAVANT",
+        "سـافـانـت"
+      ],
       "locations": [
         {
           "id": "savant-coffee-shop-msheireb",
@@ -31191,6 +31096,16 @@
           "areaAr": "مشيرب",
           "areaEn": "Msheireb",
           "approx": true
+        },
+        {
+          "id": "savant-1",
+          "nameAr": "سـافـانـت – منطقة 3",
+          "nameEn": "SAVANT – Zone 3",
+          "lat": 25.28684,
+          "lng": 51.52476,
+          "areaAr": "مشيرب الدوحة",
+          "areaEn": "Zone 3",
+          "source": "apple-maps"
         }
       ]
     },
@@ -31280,7 +31195,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "منطقة الخليج الغربي، برج النخيل، طابق 45",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -31499,7 +31415,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -31629,7 +31546,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -31695,7 +31613,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "بقرب نادي السد - شارع المشاف",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -31891,7 +31810,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -31950,7 +31870,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "قطر مول - فستيفال ستي مول",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         }
       ]
     },
@@ -32197,7 +32118,8 @@
           "lat": 25.26259,
           "lng": 51.53406,
           "areaAr": "الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -32227,7 +32149,8 @@
           "lat": 25.3195,
           "lng": 51.5285,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -32382,7 +32305,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "قطر مول - فستيفال ستي مول",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         }
       ]
     },
@@ -32506,7 +32430,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -32613,7 +32538,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى ، مدينة الوعب ، مبنى G1، بجانب صالة عرض متسوبيشي",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -32778,7 +32704,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -32942,7 +32869,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "طريق الوكرة، مبنى رقم 67",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -32972,7 +32900,8 @@
           "lat": 25.3195,
           "lng": 51.5285,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -33059,25 +32988,29 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "شارع 340 ، منطقة 39 ، بالقرب من مكتبة جرير ، إشارة رامادا، طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
     {
-      "id": "spring-air",
-      "nameEn": "Spring Air",
-      "nameAr": "سبرينج اير",
+      "id": "spring-air-mattress",
+      "nameAr": "سبرنج اير للمراتب",
+      "nameEn": "Spring Air Mattress",
       "category": "other",
-      "brandAliases": [],
+      "brandAliases": [
+        "Spring Air",
+        "سبرينج اير"
+      ],
       "locations": [
         {
-          "id": "spring-air-lusail",
-          "nameAr": "سبرينج اير – لوسيل (تقريبي)",
-          "nameEn": "Spring Air – Lusail (approx.)",
-          "lat": 25.4059,
-          "lng": 51.495,
-          "areaAr": "لوسيل",
-          "areaEn": "Lusail",
+          "id": "spring-air-mattress-1",
+          "nameAr": "سبرنج اير للمراتب",
+          "nameEn": "Spring Air Mattress",
+          "lat": 25.2854,
+          "lng": 51.531,
+          "areaAr": "المنتزة",
+          "areaEn": "Doha",
           "approx": true
         },
         {
@@ -33089,43 +33022,6 @@
           "areaAr": "منطقة 56",
           "areaEn": "Zone 56",
           "source": "apple-maps"
-        }
-      ]
-    },
-    {
-      "id": "spring-air-mattress",
-      "nameAr": "سبرنج اير للمراتب",
-      "nameEn": "Spring Air Mattress",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "spring-air-mattress-1",
-          "nameAr": "سبرنج اير للمراتب",
-          "nameEn": "Spring Air Mattress",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "المنتزة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
-      "id": "ssquared-ladies-salon",
-      "nameEn": "Ssquared Ladies Salon",
-      "nameAr": "صالون إس سكويرد للسيدات",
-      "category": "health",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "ssquared-ladies-salon-al-kheesa",
-          "nameAr": "صالون إس سكويرد للسيدات – الخيسة",
-          "nameEn": "Ssquared Ladies Salon – Al Kheesa",
-          "lat": 25.39531,
-          "lng": 51.46104,
-          "areaAr": "الخيسة",
-          "areaEn": "Al Kheesa"
         }
       ]
     },
@@ -33180,7 +33076,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "مارينا لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -33324,7 +33221,8 @@
           "lat": 25.266,
           "lng": 51.552,
           "areaAr": "شارع أحمد بن حنبل، المطار القديم",
-          "areaEn": "Old Airport"
+          "areaEn": "Old Airport",
+          "approx": true
         }
       ]
     },
@@ -33385,7 +33283,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "أم صلال",
-          "areaEn": "Umm Salal"
+          "areaEn": "Umm Salal",
+          "approx": true
         },
         {
           "id": "stradivarius-landmark",
@@ -33394,7 +33293,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "stradivarius-vendome",
@@ -33403,7 +33303,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "stradivarius-villaggio",
@@ -33490,7 +33391,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "فندق دبل تري السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -33527,7 +33429,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "ويست باي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -33583,7 +33486,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "الوكرة، قطر",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         }
       ]
     },
@@ -33815,7 +33719,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "مدينة لوسيل، منطقة 69، شارع 347، مبنى رقم 240",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -33883,30 +33788,14 @@
       ]
     },
     {
-      "id": "syfan",
-      "nameAr": "سيفان",
-      "nameEn": "Syfan",
-      "category": "other",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "syfan-1",
-          "nameAr": "سيفان",
-          "nameEn": "Syfan",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "العزيزية",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "syfan-trading-and-contracting",
       "nameEn": "Syfan Trading and Contracting",
       "nameAr": "سيفان للتجاره و المقاولات",
       "category": "other",
-      "brandAliases": [],
+      "brandAliases": [
+        "Syfan",
+        "سيفان"
+      ],
       "locations": [
         {
           "id": "syfan-trading-and-contracting-doha",
@@ -33953,7 +33842,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "مبنى ٧٢ شارع ١٤٢ منطقة ٦٩ منطقة الطاقة بجانب محطة ترام الطاقة باللوسيل، قطر",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -33971,7 +33861,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "شارع جاري الرملي، السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -34160,7 +34051,8 @@
           "lat": 25.266,
           "lng": 51.552,
           "areaAr": "مبنى الإجارة، طريق الدائري، المطار القديم، الدوحة، قطر. مبنى رقم 86، المنطقة 42، شارع 250",
-          "areaEn": "Old Airport"
+          "areaEn": "Old Airport",
+          "approx": true
         }
       ]
     },
@@ -34197,7 +34089,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "دوحة فيستيفال سيتي – لوسيل بوليفارد – طريق سلوى",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -34215,7 +34108,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "شارع السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -34487,7 +34381,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "tezenis-villaggio",
@@ -34669,7 +34564,9 @@
       "category": "restaurant",
       "brandAliases": [
         "The Butcher Shop & Grill",
-        "ذا بوتجر"
+        "ذا بوتجر",
+        "Butcher",
+        "مطعم بوتشر شوب و جريل"
       ],
       "locations": [
         {
@@ -34979,7 +34876,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -35034,7 +34932,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "الوسيل، شارع 303،منطقة 69،مبنى 254، الطابق 15",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -35095,7 +34994,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -35135,7 +35035,8 @@
           "lat": 25.2947,
           "lng": 51.5325,
           "areaAr": "الكورنيش",
-          "areaEn": "Corniche"
+          "areaEn": "Corniche",
+          "approx": true
         }
       ]
     },
@@ -35156,7 +35057,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -35316,7 +35218,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "إنتركونتيننتال الدوحة ذا سيتي، شارع الوحدة، الخليج الغربي، الدوحة.",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -35406,7 +35309,8 @@
           "lat": 25.348,
           "lng": 51.47,
           "areaAr": "صالة الدحيل الرياضية لكرة اليد، شارع جامعة الدول العربية، الدوحة",
-          "areaEn": "Al Duhail"
+          "areaEn": "Al Duhail",
+          "approx": true
         },
         {
           "id": "the-venue-men-abraj-quartier",
@@ -35624,7 +35528,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "الوكرة - المطار - دحيل - الخور - سلوى",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         },
         {
           "id": "tiger-cookies-doha",
@@ -35776,7 +35681,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "فرع طريق سلوى، فرع العزيزية ،فرع الغرافة ، فرع المطار، فرع الريان",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         },
         {
           "id": "titanium-al-aziziya",
@@ -35812,7 +35718,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الريان القديم",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -35830,7 +35737,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "لوسيل -مارينا",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -35926,7 +35834,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "شارع الهداب، الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -35944,7 +35853,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الفرع الرئيسي، فرع اللاندمارك، فرع عين خالد، فرع معيذر، ، Topline Industrial Area BranchTopline Batt",
-          "areaEn": "Landmark"
+          "areaEn": "Landmark",
+          "approx": true
         }
       ]
     },
@@ -36077,7 +35987,8 @@
           "lat": 25.26259,
           "lng": 51.53406,
           "areaAr": "الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -36201,7 +36112,8 @@
           "lat": 25.27,
           "lng": 51.51,
           "areaAr": "السلطة الجديدة شارع الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         },
         {
           "id": "turkish-hospital-c-ring-road",
@@ -36526,7 +36438,8 @@
           "lat": 25.3975,
           "lng": 51.5083,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -36547,7 +36460,8 @@
           "lat": 25.399,
           "lng": 51.508,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         },
         {
           "id": "usta-souq-waqif",
@@ -36736,7 +36650,8 @@
           "lat": 25.348,
           "lng": 51.47,
           "areaAr": "منطقة الدحيل - قرب اللاند مارك مول",
-          "areaEn": "Al Duhail"
+          "areaEn": "Al Duhail",
+          "approx": true
         }
       ]
     },
@@ -36846,7 +36761,8 @@
           "lat": 25.3807,
           "lng": 51.4475,
           "areaAr": "الدوحة فستیفال سیتي",
-          "areaEn": "Doha Festival City"
+          "areaEn": "Doha Festival City",
+          "approx": true
         }
       ]
     },
@@ -36965,7 +36881,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "السد-الريان الجديد-المطار القديم-المنتزه-الغرافة-الخريطيات-الصناعية- الوكرة- العزيزية.",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         },
         {
           "id": "victoria-travels-sky-al-sadd",
@@ -36974,7 +36891,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         },
         {
           "id": "victoria-travels-al-dafna",
@@ -36983,7 +36901,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الدفنة / الخليج الغربي",
-          "areaEn": "Al Dafna / West Bay"
+          "areaEn": "Al Dafna / West Bay",
+          "approx": true
         },
         {
           "id": "victoria-travels-zone-38",
@@ -37069,7 +36988,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         }
       ]
     },
@@ -37177,7 +37097,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "شارع جاري الرملي، السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -37339,7 +37260,8 @@
           "lat": 25.322,
           "lng": 51.529,
           "areaAr": "الخليج الغربي، شارع الانتصار",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -37377,7 +37299,8 @@
           "lat": 25.3245,
           "lng": 51.4517,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharafa"
+          "areaEn": "Al Gharafa",
+          "approx": true
         },
         {
           "id": "vodafone-qatar-al-najma",
@@ -37635,7 +37558,8 @@
           "lat": 25.3195,
           "lng": 51.5285,
           "areaAr": "الخليج الغربي",
-          "areaEn": "West Bay"
+          "areaEn": "West Bay",
+          "approx": true
         }
       ]
     },
@@ -37705,7 +37629,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع فيصل بن محمد بن ثاني، الريان، قطر",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -37793,7 +37718,8 @@
           "lat": 25.4059,
           "lng": 51.495,
           "areaAr": "طريق لوسيل السريع، شارع 508، لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -38010,7 +37936,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الريان الجديد",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -38028,7 +37955,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "شارع الريان القديم",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -38098,7 +38026,8 @@
           "lat": 25.26259,
           "lng": 51.53406,
           "areaAr": "الدائري الثالث",
-          "areaEn": "C Ring Road"
+          "areaEn": "C Ring Road",
+          "approx": true
         }
       ]
     },
@@ -38145,7 +38074,10 @@
       "nameAr": "وولف كار",
       "nameEn": "Wolf Car",
       "category": "auto",
-      "brandAliases": [],
+      "brandAliases": [
+        "Wolf Car Service",
+        "وولف كار لخدمات السيارات"
+      ],
       "locations": [
         {
           "id": "wolf-car-1",
@@ -38154,25 +38086,7 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharrafa"
-        }
-      ]
-    },
-    {
-      "id": "wolf-car-service",
-      "nameAr": "وولف كار لخدمات السيارات",
-      "nameEn": "Wolf Car Service",
-      "category": "auto",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "wolf-car-service-1",
-          "nameAr": "وولف كار لخدمات السيارات",
-          "nameEn": "Wolf Car Service",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "بن عمران",
-          "areaEn": "Doha",
+          "areaEn": "Al Gharrafa",
           "approx": true
         }
       ]
@@ -38191,7 +38105,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -38249,7 +38164,8 @@
           "lat": 25.246,
           "lng": 51.467,
           "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
+          "areaEn": "Salwa Road",
+          "approx": true
         },
         {
           "id": "wooden-bakery-wakra",
@@ -38258,7 +38174,8 @@
           "lat": 25.1715,
           "lng": 51.6034,
           "areaAr": "الوكرة",
-          "areaEn": "Al Wakrah"
+          "areaEn": "Al Wakrah",
+          "approx": true
         },
         {
           "id": "wooden-bakery-gharafa",
@@ -38736,7 +38653,8 @@
           "lat": 25.399,
           "lng": 51.508,
           "areaAr": "لوسيل",
-          "areaEn": "Lusail"
+          "areaEn": "Lusail",
+          "approx": true
         }
       ]
     },
@@ -38823,7 +38741,8 @@
           "lat": 25.283,
           "lng": 51.5,
           "areaAr": "منطقة السد",
-          "areaEn": "Al Sadd"
+          "areaEn": "Al Sadd",
+          "approx": true
         }
       ]
     },
@@ -38860,7 +38779,8 @@
           "lat": 25.2919,
           "lng": 51.424,
           "areaAr": "الريان",
-          "areaEn": "Al Rayyan"
+          "areaEn": "Al Rayyan",
+          "approx": true
         }
       ]
     },
@@ -38899,7 +38819,8 @@
           "lat": 25.332,
           "lng": 51.44,
           "areaAr": "شارع الهداب، الغرافة",
-          "areaEn": "Al Gharrafa"
+          "areaEn": "Al Gharrafa",
+          "approx": true
         }
       ]
     },
@@ -39695,7 +39616,7 @@
     {
       "id": "alsafwa-al-hemaya-insurance-brokerage-w-l-l",
       "programId": "alsafwa",
-      "merchantId": "al-hemaya-insurance-brokerage-w-l-l",
+      "merchantId": "al-hemaya-insurance-brokerage",
       "discountType": "percent",
       "discountValue": 15,
       "titleAr": "15% خصم على تأمين المنازل",
@@ -40375,7 +40296,7 @@
     {
       "id": "alsafwa-al-tawasul-specialized-center-for-ent",
       "programId": "alsafwa",
-      "merchantId": "al-tawasul-specialized-center-for-ent",
+      "merchantId": "al-tawasul-specialized-center",
       "discountType": "percent",
       "discountValue": 30,
       "titleAr": "30% خصم على اجمالي فاتورة الانف و الاذن و الحنجرة​",
@@ -41412,7 +41333,7 @@
     {
       "id": "alsafwa-bodystorm",
       "programId": "alsafwa",
-      "merchantId": "body-storm-sport",
+      "merchantId": "bodystorm-sport-and-fitness",
       "discountType": "percent",
       "discountValue": 50,
       "titleAr": "50% خصم على جميع الباقات",
@@ -41650,7 +41571,7 @@
     {
       "id": "alsafwa-charger",
       "programId": "alsafwa",
-      "merchantId": "charger",
+      "merchantId": "charger-cafe",
       "discountType": "percent",
       "discountValue": 10,
       "titleAr": "10% خصم على إجمالي الفاتورة",
@@ -43860,7 +43781,7 @@
     {
       "id": "alsafwa-hindami",
       "programId": "alsafwa",
-      "merchantId": "hindami",
+      "merchantId": "hindami-abayas",
       "discountType": "percent",
       "discountValue": 10,
       "titleAr": "10% خصم على العبايات أكثر من 750 ريالاً وأقل من 1500 ريال",
@@ -45424,7 +45345,7 @@
     {
       "id": "alsafwa-madina-medical-center",
       "programId": "alsafwa",
-      "merchantId": "madina-medical-center",
+      "merchantId": "madina-dental-center",
       "discountType": "percent",
       "discountValue": 50,
       "titleAr": "50% خصم على الاستشارة الطبية",
@@ -46512,7 +46433,7 @@
     {
       "id": "alsafwa-platinum-for-manpower",
       "programId": "alsafwa",
-      "merchantId": "platinum-for-manpower",
+      "merchantId": "platinum-manpower",
       "discountType": "percent",
       "discountValue": 10,
       "titleAr": "10% خصم على رسوم الاستقدام",
@@ -46733,7 +46654,7 @@
     {
       "id": "alsafwa-qatari-czech-medical-center-physical-therapy",
       "programId": "alsafwa",
-      "merchantId": "qatari-czech-medical-center-physical-therapy",
+      "merchantId": "qatari-czech-medical-center",
       "discountType": "percent",
       "discountValue": 25,
       "titleAr": "25% خصم من إجمالي الفاتورة المدفوعة",
@@ -47192,7 +47113,7 @@
     {
       "id": "alsafwa-roche-bobois-paris",
       "programId": "alsafwa",
-      "merchantId": "roche-bobois-paris",
+      "merchantId": "roche-bobois",
       "discountType": "percent",
       "discountValue": 20,
       "titleAr": "20% خصم على كافة المنتجات",
@@ -47498,7 +47419,7 @@
     {
       "id": "alsafwa-savant",
       "programId": "alsafwa",
-      "merchantId": "savant",
+      "merchantId": "savant-coffee-shop",
       "discountType": "percent",
       "discountValue": 10,
       "titleAr": "10% خصم على إجمالي الفاتورة",
@@ -48314,7 +48235,7 @@
     {
       "id": "alsafwa-syfan",
       "programId": "alsafwa",
-      "merchantId": "syfan",
+      "merchantId": "syfan-trading-and-contracting",
       "discountType": "percent",
       "discountValue": 15,
       "titleAr": "خصومات من 6% إلى 18% على المقاولات والديكور والأثاث",
@@ -49589,7 +49510,7 @@
     {
       "id": "alsafwa-wolf-car-service",
       "programId": "alsafwa",
-      "merchantId": "wolf-car-service",
+      "merchantId": "wolf-car",
       "discountType": "percent",
       "discountValue": 10,
       "titleAr": "10% خصم على بعض الخدمات",
@@ -51584,7 +51505,7 @@
     {
       "id": "mazaya-body-storm-sport",
       "programId": "mazaya",
-      "merchantId": "body-storm-sport",
+      "merchantId": "bodystorm-sport-and-fitness",
       "discountType": "percent",
       "discountValue": 60,
       "titleAr": "خصم 60%",
@@ -51601,7 +51522,7 @@
     {
       "id": "mazaya-body-storm-sport-2",
       "programId": "mazaya",
-      "merchantId": "body-storm-sport",
+      "merchantId": "bodystorm-sport-and-fitness",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "خصم لحاملي بطاقة مزايا — التفاصيل داخل تطبيق موارد",
@@ -56990,7 +56911,7 @@
     {
       "id": "mazaya-spring-air",
       "programId": "mazaya",
-      "merchantId": "spring-air",
+      "merchantId": "spring-air-mattress",
       "discountType": "percent",
       "discountValue": 20,
       "titleAr": "خصم 20%",
@@ -62467,7 +62388,7 @@
     {
       "id": "testaahel-al-abeer-midical-center",
       "programId": "testaahel",
-      "merchantId": "al-abeer-midical-center",
+      "merchantId": "abeer-medical-center",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في مركز العبير الطبي",
@@ -63351,7 +63272,7 @@
     {
       "id": "testaahel-alfardan-medical",
       "programId": "testaahel",
-      "merchantId": "alfardan-medical",
+      "merchantId": "alfardan-medical-centre",
       "discountType": "percent",
       "discountValue": 25.0,
       "titleAr": "خصم 25% لحاملي بطاقة تستاهل في الفردان الطبية",
@@ -65119,7 +65040,7 @@
     {
       "id": "testaahel-butcher",
       "programId": "testaahel",
-      "merchantId": "butcher",
+      "merchantId": "the-butcher-shop-and-grill",
       "discountType": "percent",
       "discountValue": 10.0,
       "titleAr": "خصم 10% لحاملي بطاقة تستاهل في مطعم بوتشر شوب و جريل",
@@ -65425,7 +65346,7 @@
     {
       "id": "testaahel-centro-capital-rotana",
       "programId": "testaahel",
-      "merchantId": "centro-capital-rotana",
+      "merchantId": "centro-capital-doha",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في فندق سنترو كابيتال الدوحة من روتانا",
@@ -66870,7 +66791,7 @@
     {
       "id": "testaahel-electric",
       "programId": "testaahel",
-      "merchantId": "electric",
+      "merchantId": "electric-diner",
       "discountType": "percent",
       "discountValue": 10.0,
       "titleAr": "خصم 10% لحاملي بطاقة تستاهل في الكترك داينر",
@@ -67516,7 +67437,7 @@
     {
       "id": "testaahel-first-dental-center-al-nuaija-branch",
       "programId": "testaahel",
-      "merchantId": "first-dental-center-al-nuaija-branch",
+      "merchantId": "first-dental-center",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في المركز الأول للأسنان – فرع النعيجة",
@@ -67584,7 +67505,7 @@
     {
       "id": "testaahel-flexzilla",
       "programId": "testaahel",
-      "merchantId": "flexzilla",
+      "merchantId": "flexzilla-supplements",
       "discountType": "percent",
       "discountValue": 15.0,
       "titleAr": "خصم 15% لحاملي بطاقة تستاهل في فلكس زيلا للمكملات الغذائية",
@@ -68383,7 +68304,7 @@
     {
       "id": "testaahel-green-life",
       "programId": "testaahel",
-      "merchantId": "green-life",
+      "merchantId": "green-life-center",
       "discountType": "percent",
       "discountValue": 15.0,
       "titleAr": "خصم 15% لحاملي بطاقة تستاهل في غرين لايف",
@@ -68468,7 +68389,7 @@
     {
       "id": "testaahel-hair-era-beauty",
       "programId": "testaahel",
-      "merchantId": "hair-era-beauty",
+      "merchantId": "hair-era-beauty-salon",
       "discountType": "percent",
       "discountValue": 10.0,
       "titleAr": "خصم 10–15% لحاملي بطاقة تستاهل في هير إيرا بيوتي",
@@ -69114,7 +69035,7 @@
     {
       "id": "testaahel-inspire-center",
       "programId": "testaahel",
-      "merchantId": "inspire-center",
+      "merchantId": "inspire-special-needs-therapy-center",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "عرض خاص لحاملي بطاقة تستاهل في إنسبير لتأهيل ذوي الاحتاجات الخاصة",
@@ -69199,7 +69120,7 @@
     {
       "id": "testaahel-italian-restaurant",
       "programId": "testaahel",
-      "merchantId": "italian-restaurant",
+      "merchantId": "eataly-doha",
       "discountType": "percent",
       "discountValue": 10.0,
       "titleAr": "خصم 10% لحاملي بطاقة تستاهل في مطعم ايتالي",
@@ -70627,7 +70548,7 @@
     {
       "id": "testaahel-malibuk",
       "programId": "testaahel",
-      "merchantId": "malibuk",
+      "merchantId": "malibu-kitchen",
       "discountType": "percent",
       "discountValue": 10.0,
       "titleAr": "خصم 10% لحاملي بطاقة تستاهل في مالبو كيتشن",
@@ -70831,7 +70752,7 @@
     {
       "id": "testaahel-matnaflex",
       "programId": "testaahel",
-      "merchantId": "matnaflex",
+      "merchantId": "matnaflex-national-mattress-factory",
       "discountType": "percent",
       "discountValue": 15.0,
       "titleAr": "خصم 15% لحاملي بطاقة تستاهل في المصنع الوطني للمراتب",
@@ -71562,7 +71483,7 @@
     {
       "id": "testaahel-natuzzi",
       "programId": "testaahel",
-      "merchantId": "natuzzi",
+      "merchantId": "natuzzi-italia",
       "discountType": "percent",
       "discountValue": 25.0,
       "titleAr": "خصم 25% لحاملي بطاقة تستاهل في ناتوزي",
@@ -72973,7 +72894,7 @@
     {
       "id": "testaahel-qute-boutique-gifts",
       "programId": "testaahel",
-      "merchantId": "qute-boutique-gifts",
+      "merchantId": "qute-boutique",
       "discountType": "percent",
       "discountValue": 17.0,
       "titleAr": "خصم 17% لحاملي بطاقة تستاهل في كيوت بوتيك للهدايا",
@@ -74452,7 +74373,7 @@
     {
       "id": "testaahel-spring-air",
       "programId": "testaahel",
-      "merchantId": "spring-air",
+      "merchantId": "spring-air-mattress",
       "discountType": "percent",
       "discountValue": 20.0,
       "titleAr": "خصم 20% لحاملي بطاقة تستاهل في سبرينج اير",
@@ -74469,7 +74390,7 @@
     {
       "id": "testaahel-ssquared-ladies-salon",
       "programId": "testaahel",
-      "merchantId": "ssquared-ladies-salon",
+      "merchantId": "s-squared-salon",
       "discountType": "percent",
       "discountValue": 20.0,
       "titleAr": "خصم 20% لحاملي بطاقة تستاهل في صالون إس سكويرد للسيدات",
