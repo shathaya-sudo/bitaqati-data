@@ -1,5 +1,5 @@
 {
- "_note": "Reviewed merchant merges (dedupe pass of 2026-11-17), applied by merge_seed.py to every part: part merchant id -> canonical seed merchant id. dropMerchants: listing entries outside Qatar that the Qatar filter removes anyway. Edit by hand only after reviewing; never auto-merge.",
+ "_note": "Reviewed merchant merges (dedupe pass of 2026-11-17), applied by merge_seed.py to every part: part merchant id -> canonical seed merchant id. dropMerchants: listing entries outside Qatar that the Qatar filter removes anyway. Edit by hand only after reviewing; never auto-merge. names: reviewed display-name fixes applied after merging.",
  "map": {
   "abesq-doha-hotel-and-residences": "abesq-doha-hotel",
   "abesq-hotel-doha": "abesq-doha-hotel",
@@ -20,7 +20,12 @@
   "paul-bakery-and-restaurant": "paul",
   "salam-store": "salam-stores",
   "sedra-arjaan-by-rotana-the-pearl": "sedra-arjaan-by-rotana",
-  "w-doha-hotel-and-residences": "w-doha-hotel"
+  "w-doha-hotel-and-residences": "w-doha-hotel",
+  "212": "alwahacars",
+  "johnson-automotive": "johnson-automotive-protection",
+  "q-three-sixty-car-washing": "q-three-sixty-car-wash",
+  "q360-car-washing": "q-three-sixty-car-wash",
+  "the-guard-tinting-and-protection": "the-guard-car-tinting-and-protection"
  },
  "dropMerchants": [
   "asnan-tower-kuwait",
@@ -53,5 +58,16 @@
   "swissotel-al-maqam-makkah",
   "swissotel-makkah",
   "waldorf-asroria-versailles-trianon-palace"
- ]
+ ],
+ "names": {
+  "alwahacars": {
+   "nameAr": "الواحة للسيارات (212 قطر أوف-رود)",
+   "nameEn": "Al Waha Cars (212 Qatar Off-Road)",
+   "brandAliases": [
+    "212",
+    "Alwahacars"
+   ],
+   "_source": "daman.gov.qa DiscountDetails OfferID=1000 'عن الشركة': 212 is managed locally by Al Waha Cars"
+  }
+ }
 }

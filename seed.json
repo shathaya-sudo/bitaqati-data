@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T19:02:28Z",
+  "generatedAt": "2026-11-18T12:57:07Z",
   "programs": [
     {
       "id": "alsafwa",
@@ -339,24 +339,6 @@
           "areaAr": "كتارا",
           "areaEn": "Katara",
           "approx": true
-        }
-      ]
-    },
-    {
-      "id": "212",
-      "nameAr": "212",
-      "nameEn": "212",
-      "category": "auto",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "212-1",
-          "nameAr": "212",
-          "nameEn": "212",
-          "lat": 25.246,
-          "lng": 51.467,
-          "areaAr": "طريق سلوى",
-          "areaEn": "Salwa Road"
         }
       ]
     },
@@ -4850,10 +4832,13 @@
     },
     {
       "id": "alwahacars",
-      "nameEn": "Alwahacars",
-      "nameAr": "الواحة للسيارات",
+      "nameEn": "Al Waha Cars (212 Qatar Off-Road)",
+      "nameAr": "الواحة للسيارات (212 قطر أوف-رود)",
       "category": "auto",
-      "brandAliases": [],
+      "brandAliases": [
+        "212",
+        "Alwahacars"
+      ],
       "locations": [
         {
           "id": "alwahacars-doha",
@@ -4864,6 +4849,15 @@
           "areaAr": "الدوحة",
           "areaEn": "Doha",
           "approx": true
+        },
+        {
+          "id": "212-1",
+          "nameAr": "212",
+          "nameEn": "212",
+          "lat": 25.246,
+          "lng": 51.467,
+          "areaAr": "طريق سلوى",
+          "areaEn": "Salwa Road"
         }
       ]
     },
@@ -18718,30 +18712,14 @@
       ]
     },
     {
-      "id": "johnson-automotive",
-      "nameEn": "Johnson Automotive",
-      "nameAr": "شركة جونسون لحماية السيارات",
-      "category": "auto",
-      "brandAliases": [],
-      "locations": [
-        {
-          "id": "johnson-automotive-doha",
-          "nameAr": "شركة جونسون لحماية السيارات – الدوحة (تقريبي)",
-          "nameEn": "Johnson Automotive – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
       "id": "johnson-automotive-protection",
       "nameAr": "جونسون لحماية السيارات",
       "nameEn": "Johnson Automotive Protection",
       "category": "auto",
-      "brandAliases": [],
+      "brandAliases": [
+        "Johnson Automotive",
+        "شركة جونسون لحماية السيارات"
+      ],
       "locations": [
         {
           "id": "johnson-automotive-protection-1",
@@ -28719,7 +28697,14 @@
       "nameAr": "كيو ثري سيكستي لغسيل السيارات",
       "nameEn": "Q Three Sixty Car Wash",
       "category": "auto",
-      "brandAliases": [],
+      "brandAliases": [
+        "Q Three Sixty Car Washing",
+        "كيو ثري سيكستي لغسيل وتلميع السيارات",
+        "Q Three Sixty for Car Washing and Polishing",
+        "Q360 Car Washing",
+        "Q360 لغسيل السيارات",
+        "Q360"
+      ],
       "locations": [
         {
           "id": "q-three-sixty-car-wash-1",
@@ -28729,40 +28714,7 @@
           "lng": 51.6034,
           "areaAr": "مبنى 102، طريق الوكرة، الوكرة، قطر",
           "areaEn": "Al Wakrah"
-        }
-      ]
-    },
-    {
-      "id": "q-three-sixty-car-washing",
-      "nameEn": "Q Three Sixty Car Washing",
-      "nameAr": "كيو ثري سيكستي لغسيل وتلميع السيارات",
-      "category": "auto",
-      "brandAliases": [
-        "Q Three Sixty for Car Washing and Polishing"
-      ],
-      "locations": [
-        {
-          "id": "q-three-sixty-car-washing-doha",
-          "nameAr": "كيو ثري سيكستي لغسيل وتلميع السيارات – الدوحة (تقريبي)",
-          "nameEn": "Q Three Sixty Car Washing – Doha (approx.)",
-          "lat": 25.2854,
-          "lng": 51.531,
-          "areaAr": "الدوحة",
-          "areaEn": "Doha",
-          "approx": true
-        }
-      ]
-    },
-    {
-      "id": "q360-car-washing",
-      "nameAr": "Q360 لغسيل السيارات",
-      "nameEn": "Q360 Car Washing",
-      "category": "auto",
-      "brandAliases": [
-        "Q360 Car Washing",
-        "Q360"
-      ],
-      "locations": [
+        },
         {
           "id": "q360-car-washing-main",
           "nameAr": "Q360 لغسيل السيارات – منطقة 90",
@@ -34992,7 +34944,14 @@
       "nameAr": "ذي جارد للعازل الحراري وحماية السيارات",
       "nameEn": "The Guard Car Tinting & Protection",
       "category": "auto",
-      "brandAliases": [],
+      "brandAliases": [
+        "The Guard Tinting & Protection",
+        "ذي جارد للعازل الحراري والحماية",
+        "The Guard",
+        "The Guard to Tinting & Protection",
+        "ذي جارد للعازل الحراري",
+        "ذي جارد للعازل و الحمايه"
+      ],
       "locations": [
         {
           "id": "the-guard-car-tinting-and-protection-1",
@@ -35003,29 +34962,6 @@
           "areaAr": "منطقة 55",
           "areaEn": "Zone 55",
           "source": "apple-maps"
-        }
-      ]
-    },
-    {
-      "id": "the-guard-tinting-and-protection",
-      "nameEn": "The Guard Tinting & Protection",
-      "nameAr": "ذي جارد للعازل الحراري والحماية",
-      "category": "auto",
-      "brandAliases": [
-        "The Guard",
-        "The Guard to Tinting & Protection",
-        "ذي جارد للعازل الحراري",
-        "ذي جارد للعازل و الحمايه"
-      ],
-      "locations": [
-        {
-          "id": "the-guard-tinting-and-protection-al-aziziya",
-          "nameAr": "ذي جارد للعازل الحراري والحماية – العزيزية",
-          "nameEn": "The Guard Tinting & Protection – Al Aziziya",
-          "lat": 25.24757,
-          "lng": 51.45292,
-          "areaAr": "العزيزية",
-          "areaEn": "Al Aziziya"
         }
       ]
     },
@@ -39351,7 +39287,7 @@
     {
       "id": "alsafwa-212",
       "programId": "alsafwa",
-      "merchantId": "212",
+      "merchantId": "alwahacars",
       "discountType": "percent",
       "discountValue": 8.7,
       "titleAr": "8.7% خصم على سيارة 212 T01",
@@ -56085,7 +56021,7 @@
     {
       "id": "mazaya-q360-car-washing",
       "programId": "mazaya",
-      "merchantId": "q360-car-washing",
+      "merchantId": "q-three-sixty-car-wash",
       "discountType": "other",
       "discountValue": 0,
       "titleAr": "خصم لحاملي بطاقة مزايا — القيمة داخل تطبيق موارد",
@@ -69433,7 +69369,7 @@
     {
       "id": "testaahel-johnson-automotive",
       "programId": "testaahel",
-      "merchantId": "johnson-automotive",
+      "merchantId": "johnson-automotive-protection",
       "discountType": "percent",
       "discountValue": 35.0,
       "titleAr": "خصم 35% لحاملي بطاقة تستاهل في شركة جونسون لحماية السيارات",
@@ -72867,7 +72803,7 @@
     {
       "id": "testaahel-q-three-sixty-car-washing",
       "programId": "testaahel",
-      "merchantId": "q-three-sixty-car-washing",
+      "merchantId": "q-three-sixty-car-wash",
       "discountType": "percent",
       "discountValue": 10.0,
       "titleAr": "خصم 10% لحاملي بطاقة تستاهل في كيو ثري سيكستي لغسيل وتلميع السيارات",
@@ -75247,7 +75183,7 @@
     {
       "id": "testaahel-the-guard-tinting-and-protection",
       "programId": "testaahel",
-      "merchantId": "the-guard-tinting-and-protection",
+      "merchantId": "the-guard-car-tinting-and-protection",
       "discountType": "percent",
       "discountValue": 50.0,
       "titleAr": "خصم 50% لحاملي بطاقة تستاهل في ذي جارد للعازل الحراري والحماية",

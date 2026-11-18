@@ -13,6 +13,19 @@ import json, sys, glob, os, re, collections
 import datetime as dt
 
 REQ_MERCHANT = ["id", "nameAr", "nameEn", "category", "brandAliases", "locations"]
+
+def is_guess(l):
+    """Area-level placeholder (Apple's default Doha pin or an '(approx.)' branch), never a real branch."""
+    name = (l.get("nameEn", "") + " " + l.get("nameAr", "")).lower()
+    return bool(l.get("approx")) or "approx" in name or "تقريب" in name or (
+        abs(l["lat"] - 25.2854) < 0.0006 and abs(l["lng"] - 51.531) < 0.0006)
+
+def fold(src, dst):
+    """Merge merchant `src` into `dst`: real branches move over, old names become aliases (search still finds them)."""
+    known = {l["id"] for l in dst["locations"]}
+    dst["locations"] += [l for l in src["locations"] if l["id"] not in known and not is_guess(l)]
+    extra = [n for n in [src.get("nameEn"), src.get("nameAr")] + src.get("brandAliases", []) if n and n not in (dst["nameEn"], dst["nameAr"])]
+    dst["brandAliases"] = list(dict.fromkeys(dst.get("brandAliases", []) + extra))
 REQ_OFFER = ["id", "programId", "merchantId", "discountType", "titleAr", "titleEn"]
 AR = re.compile(r"[؀-ۿ]")
 
@@ -34,12 +47,27 @@ def main():
 
     # merchant_map.json (next to the parts): reviewed dedupe decisions that must survive every re-crawl.
     #   {"map": {"<part merchant id>": "<canonical merchant id>"}, "dropMerchants": ["<not a merchant>"]}
-    merchant_map, drop_merchants = {}, set()
+    #   "names": {"<merchant id>": {"nameAr": .., "nameEn": .., "brandAliases": [..]}} reviewed display-name fixes
+    #   (e.g. a source that lists a car brand as just "212": the dealer named on its own detail page is added).
+    merchant_map, drop_merchants, name_overrides = {}, set(), {}
     map_path = os.path.join(parts_dir, "merchant_map.json")
     if os.path.exists(map_path):
         mm = json.load(open(map_path, encoding="utf-8"))
-        merchant_map = mm.get("map", {}); drop_merchants = set(mm.get("dropMerchants", []))
-        print(f"merchant map: {len(merchant_map)} remaps, {len(drop_merchants)} dropped ids")
+        merchant_map = mm.get("map", {}); drop_merchants = set(mm.get("dropMerchants", [])); name_overrides = mm.get("names", {})
+        print(f"merchant map: {len(merchant_map)} remaps, {len(drop_merchants)} dropped ids, {len(name_overrides)} name fixes")
+    # The seed itself may still hold merchants a later review merged or dropped (they came from older parts).
+    folded = 0
+    for src, dst in merchant_map.items():
+        if src in merchants and dst in merchants and src != dst:
+            fold(merchants.pop(src), merchants[dst]); folded += 1
+    for src in drop_merchants:
+        if merchants.pop(src, None) is not None:
+            for oid in [o["id"] for o in offers.values() if o["merchantId"] == src]:
+                offers.pop(oid)
+    for o in offers.values():
+        o["merchantId"] = merchant_map.get(o["merchantId"], o["merchantId"])
+    if folded:
+        print(f"folded {folded} seed merchants into their canonical ids")
 
     for path in sorted(glob.glob(os.path.join(parts_dir, "*.json"))):
         if os.path.basename(path) == "merchant_map.json":
@@ -64,10 +92,6 @@ def main():
                 kept = [fresh.pop(l["id"], l) for l in ex["locations"]]
                 # A re-crawled part carries its old area-level guesses; never add those to a merchant the seed
                 # already knows (its locations may have been geocoded or reviewed since). Exact branches are added.
-                def is_guess(l):
-                    name = (l.get("nameEn", "") + " " + l.get("nameAr", "")).lower()
-                    return l.get("approx") or "approx" in name or "تقريب" in name or (
-                        abs(l["lat"] - 25.2854) < 0.0006 and abs(l["lng"] - 51.531) < 0.0006)
                 ex["locations"] = kept + [l for l in fresh.values() if not is_guess(l)]
                 ex["brandAliases"] = list(dict.fromkeys(ex["brandAliases"] + m.get("brandAliases", [])))
             else:
@@ -130,6 +154,12 @@ def main():
         m["locations"] = [l for l in m["locations"] if any(l is k for k in kept)]
     if collapsed:
         print(f"collapsed {collapsed} duplicate locations")
+    for mid, fix in name_overrides.items():
+        if mid in merchants:
+            m = merchants[mid]
+            for k in ("nameAr", "nameEn"):
+                if fix.get(k): m[k] = fix[k]
+            m["brandAliases"] = list(dict.fromkeys(m.get("brandAliases", []) + fix.get("brandAliases", [])))
     seed["merchants"] = sorted(merchants.values(), key=lambda m: m["id"])
     import annotate_locations
     print(f"approx locations flagged: {annotate_locations.annotate(seed)}")
