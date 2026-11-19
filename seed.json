@@ -169,7 +169,12 @@
       "proofType": "app",
       "eligibilityAr": "عملاء Ooredoo في قطر ممن يحملون بطاقة شخصية قطرية؛ الفئات: فضي، ذهبي، النخبة (إنفاق شهري 3,000 ر.ق فأكثر). تُعرض بطاقة العضوية الرقمية في قسم نجوم بتطبيق Ooredoo.",
       "eligibilityEn": "Ooredoo Qatar customers with a Qatar ID; tiers Silver, Gold and Al Nokhba (QAR 3,000+ average monthly spend). Show the digital membership card in the Nojoom section of the Ooredoo app.",
-      "websiteURL": "https://www.ooredoo.qa/web/en/nojoom/"
+      "websiteURL": "https://www.ooredoo.qa/web/en/nojoom/",
+      "tiers": [
+        "Silver",
+        "Gold",
+        "Al Nokhba"
+      ]
     },
     {
       "id": "ipoints",
