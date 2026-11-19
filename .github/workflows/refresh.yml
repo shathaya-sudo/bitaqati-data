@@ -37,4 +37,11 @@ jobs:
           git add seed.json parts/testaahel.json
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "data: refresh $(date -u +%FT%TZ)"
-          git push
+          # main may have moved during the 15-minute crawl: replay the refresh on top of it
+          # (on a conflict the freshly generated files win) and retry the push.
+          for attempt in 1 2 3; do
+            git push && exit 0
+            git fetch origin main
+            git rebase -X theirs origin/main || { git rebase --abort; exit 1; }
+          done
+          exit 1
