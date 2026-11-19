@@ -464,10 +464,13 @@ def percent_from_text(texts):
     vals = []
     for t in texts:
         vals += [float(x) for x in PCT_IN_TEXT.findall(t or "")]
-    vals = [v for v in vals if 3 <= v <= 100]
+    vals = [v for v in vals if 3 <= v < 100]
     if not vals:
         return None
-    return ("exact" if len(set(vals)) == 1 else "headline"), vals[0], None
+    if len(set(vals)) == 1:
+        return "exact", vals[0], None
+    # Several figures ("20% on food, 10% on drinks"): an honest range, low end first.
+    return "range", min(vals), max(vals)
 
 
 def fmt_num(v):
@@ -836,6 +839,7 @@ def build(args, log=print):
                     kind, dval, hi = inferred
                     dtype = "percent"
         subtitle_en, subtitle_ar = en.get("subtitle") or "", ar.get("subtitle") or ""
+        upto_flag = (dtype in ("percent", "fixed") and kind == "upto")
         if dtype == "percent":
             if kind == "range":
                 lbl = f"{fmt_num(dval)}–{fmt_num(hi)}%"
@@ -858,6 +862,14 @@ def build(args, log=print):
             title_ar = f"عرض خاص لحاملي بطاقة تستاهل في {m['nameAr']}"
             title_en = (f"{badge} – {m['nameEn']}" if badge and badge.lower() not in ("special offer", "special offers")
                         else f"Special offer for Testaahel cardholders at {m['nameEn']}")
+        # The site's own one-line subtitle says what the discount is ON ("30% on vehicle-care fees, 5% on
+        # products"); a template title hides that and reads as "30% at Woqod". Use it when it states a figure.
+        def headline(sub):
+            s = (sub or "").strip()
+            first = re.split(r"(?<=[.!؟?])\s+", s)[0].strip().rstrip(".")
+            return first if first and len(first) <= 120 and (PCT_IN_TEXT.search(first) or re.search(r"خصم|discount|off\b|free|مجان", first, re.I)) else None
+        title_ar = headline(subtitle_ar) or title_ar
+        title_en = headline(subtitle_en) or title_en
 
         def conditions(sub, short, full, fac, terms, suffix, pdf_note, lang):
             parts = []
@@ -897,6 +909,7 @@ def build(args, log=print):
         offers.append({
             "id": offer_id, "programId": PROGRAM, "merchantId": mid,
             "discountType": dtype, "discountValue": dval,
+            "discountMax": (hi if (dtype == "percent" and kind == "range" and hi) else None), "upTo": upto_flag,
             "titleAr": title_ar, "titleEn": title_en,
             "conditionsAr": cond_ar, "conditionsEn": cond_en,
             "validFrom": None, "validUntil": None, "tiers": [],

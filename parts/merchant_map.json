@@ -54,7 +54,31 @@
   "qatari-czech-medical-center-physical-therapy": "qatari-czech-medical-center",
   "ssquared-ladies-salon": "s-squared-salon",
   "wolf-car-service": "wolf-car",
-  "alfardan-medical": "alfardan-medical-centre"
+  "alfardan-medical": "alfardan-medical-centre",
+  "halo-dough-bar": "halo",
+  "strive-fitness-club": "strive",
+  "zabarjad-and-diamond": "zabarjad",
+  "wolf-store-trading": "wolf-store",
+  "lulu-rayyan-trading": "lulu-rayyan-group",
+  "intercontinental": "ihg-hotels",
+  "crowne-plaza": "ihg-hotels",
+  "holiday-inn": "ihg-hotels",
+  "hotel-indigo": "ihg-hotels",
+  "staybridge-suites": "ihg-hotels",
+  "voco": "ihg-hotels",
+  "avid": "ihg-hotels",
+  "even": "ihg-hotels",
+  "garner": "ihg-hotels",
+  "regent": "ihg-hotels",
+  "kimpton": "ihg-hotels",
+  "atwell-suites": "ihg-hotels",
+  "candlewood-suites": "ihg-hotels",
+  "holiday-inn-express": "ihg-hotels",
+  "holiday-inn-club-vacations": "ihg-hotels",
+  "six-senses": "ihg-hotels",
+  "vignette-collection": "ihg-hotels",
+  "hualuxe-hotels-and-resorts": "ihg-hotels",
+  "iberostar-beachfront-resorts": "ihg-hotels"
  },
  "dropMerchants": [
   "asnan-tower-kuwait",
@@ -86,7 +110,8 @@
   "st-regis-kuwait",
   "swissotel-al-maqam-makkah",
   "swissotel-makkah",
-  "waldorf-asroria-versailles-trianon-palace"
+  "waldorf-asroria-versailles-trianon-palace",
+  "hilton-hotels-usa"
  ],
  "names": {
   "alwahacars": {
@@ -97,6 +122,24 @@
     "Alwahacars"
    ],
    "_source": "daman.gov.qa DiscountDetails OfferID=1000 'عن الشركة': 212 is managed locally by Al Waha Cars"
+  },
+  "ihg-hotels": {
+   "nameAr": "فنادق IHG في قطر (إنتركونتيننتال، كراون بلازا، هوليداي إن، فوكو…)",
+   "nameEn": "IHG Hotels in Qatar (InterContinental, Crowne Plaza, Holiday Inn, voco…)",
+   "brandAliases": [
+    "IHG",
+    "Intercontinental",
+    "Crowne Plaza",
+    "Holiday Inn",
+    "voco",
+    "Hotel Indigo",
+    "Staybridge Suites",
+    "إنتركونتيننتال",
+    "كراون بلازا",
+    "هوليداي إن",
+    "فوكو"
+   ],
+   "_source": "one Al Safwa row 'Up to 20% off bookings' split into 19 IHG brands; folded back into the group with its 5 Qatar properties"
   }
  }
 }

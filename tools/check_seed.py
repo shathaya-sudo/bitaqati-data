@@ -20,8 +20,11 @@ for o in seed["offers"]:
     if o["programId"] not in programs: problems.append(f"offer {o['id']} unknown program {o['programId']}")
     if o["merchantId"] not in merchants: problems.append(f"offer {o['id']} unknown merchant {o['merchantId']}")
     if not o["id"].startswith(o["programId"] + "-"): problems.append(f"offer {o['id']} id does not start with its program")
-    for k in ("verified", "source", "lastCheckedAt", "titleAr", "titleEn"):
+    for k in ("source", "lastCheckedAt", "titleAr", "titleEn"):
         if not o.get(k): problems.append(f"offer {o['id']} missing {k}")
+    if not isinstance(o.get("verified"), bool): problems.append(f"offer {o['id']} verified must be true/false")
+    if o.get("discountType") == "percent" and o.get("discountValue") is not None and not (0 < o["discountValue"] < 100):
+        problems.append(f"offer {o['id']} percent value out of range: {o['discountValue']}")
     key = (o["programId"], o["merchantId"], o.get("titleAr"), o.get("discountValue"))
     if key in seen: problems.append(f"duplicate offer {key}")
     seen.add(key)

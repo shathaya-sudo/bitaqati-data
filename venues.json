@@ -126,7 +126,7 @@
       "nameEn": "Msheireb Downtown",
       "lat": 25.28721,
       "lng": 51.52713,
-      "radius": 450,
+      "radius": 350,
       "aliases": [
         "msheireb",
         "mushaireb",
@@ -141,7 +141,7 @@
       "nameEn": "Souq Waqif",
       "lat": 25.28838,
       "lng": 51.53283,
-      "radius": 350,
+      "radius": 230,
       "aliases": [
         "souq waqif",
         "souk waqif",
@@ -154,7 +154,7 @@
       "nameEn": "The Pearl – Medina Centrale",
       "lat": 25.369,
       "lng": 51.5515,
-      "radius": 350,
+      "radius": 140,
       "aliases": [
         "medina centrale",
         "مدينة سنترال",
@@ -167,7 +167,7 @@
       "nameEn": "The Pearl – Porto Arabia",
       "lat": 25.37,
       "lng": 51.548,
-      "radius": 600,
+      "radius": 230,
       "aliases": [
         "porto arabia",
         "بورتو أرابيا",
@@ -245,7 +245,7 @@
       "nameEn": "Gulf Mall",
       "lat": 25.33549,
       "lng": 51.46065,
-      "radius": 250,
+      "radius": 120,
       "aliases": [
         "gulf mall",
         "جلف مول",
@@ -258,7 +258,7 @@
       "nameEn": "Ezdan Mall Al Gharrafa",
       "lat": 25.33378,
       "lng": 51.46194,
-      "radius": 220,
+      "radius": 110,
       "aliases": [
         "ezdan mall gharrafa",
         "ezdan mall al gharrafa",

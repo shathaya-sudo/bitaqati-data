@@ -60,6 +60,9 @@ def main():
     for src, dst in merchant_map.items():
         if src in merchants and dst in merchants and src != dst:
             fold(merchants.pop(src), merchants[dst]); folded += 1
+        elif src in merchants and dst not in merchants and src != dst:
+            # First member of a new canonical id (e.g. 19 hotel-brand stubs -> one "ihg-hotels"): it becomes the canonical.
+            m = merchants.pop(src); m["id"] = dst; merchants[dst] = m; folded += 1
     for src in drop_merchants:
         if merchants.pop(src, None) is not None:
             for oid in [o["id"] for o in offers.values() if o["merchantId"] == src]:
@@ -68,6 +71,15 @@ def main():
         o["merchantId"] = merchant_map.get(o["merchantId"], o["merchantId"])
     if folded:
         print(f"folded {folded} seed merchants into their canonical ids")
+    # Folding can leave one merchant with the same offer several times (one listing row per brand): keep the first.
+    seen_offer, dup_offers = set(), []
+    for oid, o in sorted(offers.items()):
+        key = (o["programId"], o["merchantId"], o.get("titleAr"), o.get("discountValue"))
+        if key in seen_offer: dup_offers.append(oid)
+        seen_offer.add(key)
+    for oid in dup_offers: offers.pop(oid)
+    if dup_offers:
+        print(f"dropped {len(dup_offers)} identical offers left by merges")
 
     for path in sorted(glob.glob(os.path.join(parts_dir, "*.json"))):
         if os.path.basename(path) == "merchant_map.json":
@@ -164,6 +176,8 @@ def main():
     import annotate_locations
     print(f"approx locations flagged: {annotate_locations.annotate(seed, annotate_locations.load_venues(seed_path))}")
     seed["offers"] = sorted(offers.values(), key=lambda o: o["id"])
+    import fix_offer_values
+    print("offer values:", fix_offer_values.fix(seed))
     # Full UTC timestamp: the app swaps in a downloaded catalog only when its generatedAt string is
     # greater, so two refreshes on the same day must differ (ISO 8601 strings compare correctly).
     seed["generatedAt"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
